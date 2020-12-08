@@ -25,7 +25,8 @@ Pod::Spec.new do |s|
 	s.social_media_url = 'https://twitter.com/moosefactory_eu'
 
 	s.ios.deployment_target = '13.5'
-	s.osx.deployment_target = '10.15'
+    s.osx.deployment_target = '10.15'
+    s.tvos.deployment_target = '14.0'
 	s.requires_arc = true
 
 	s.source_files = 'MoofFoundation/MoofFoundation.h', 'MoofFoundation/Sources/**/*.*'
