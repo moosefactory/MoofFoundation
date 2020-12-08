@@ -30,6 +30,8 @@ THE SOFTWARE. */
 //
 //  Created by Tristan Leblanc on 15/10/2020.
 
+#if !os(watchOS)
+
 import Foundation
 import QuartzCore
 
@@ -109,3 +111,5 @@ public extension CGRect {
         return CGRect(origin: lhs.origin / rhs, size: lhs.size / rhs)
     }
 }
+
+#endif

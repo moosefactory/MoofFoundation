@@ -30,6 +30,8 @@ THE SOFTWARE. */
 //
 //  Created by Tristan Leblanc on 20/11/2020.
 
+#if !os(watchOS)
+
 import Foundation
 import QuartzCore
 import CoreImage
@@ -81,3 +83,5 @@ public extension CGImage {
         return nil
     }
 }
+
+#endif

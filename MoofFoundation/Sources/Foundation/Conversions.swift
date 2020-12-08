@@ -30,6 +30,8 @@ THE SOFTWARE. */
 //
 //  Created by Tristan Leblanc on 20/11/2020.
 
+#if !os(watchOS)
+
 import Foundation
 import QuartzCore
 
@@ -103,3 +105,5 @@ public extension Float {
     var degreeToRadian: Float { return self * Float.degToRadFactor }
     var radianToDegree: Float { return self / Float.degToRadFactor }
 }
+
+#endif

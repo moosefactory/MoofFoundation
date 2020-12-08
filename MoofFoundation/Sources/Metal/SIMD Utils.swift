@@ -30,6 +30,8 @@
 //
 //  Created by Tristan Leblanc on 25/11/2020.
 
+#if !os(watchOS)
+
 import Foundation
 import QuartzCore
 import simd
@@ -98,4 +100,6 @@ public extension NSColor {
         return color.simd
     }
 }
+#endif
+
 #endif

@@ -31,7 +31,8 @@ THE SOFTWARE. */
 //  Created by Tristan Leblanc on 19/11/2020.
 
 import Foundation
-import QuartzCore
+
+#if !os(watchOS)
 
 public extension CGFloat {
     
@@ -67,6 +68,8 @@ public extension CGFloat {
         return random(min: base, max: base + variation)
     }
 }
+
+#endif
 
 public extension UInt8 {
     

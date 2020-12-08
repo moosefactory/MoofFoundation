@@ -30,8 +30,22 @@ THE SOFTWARE. */
 //
 //  Created by Tristan Leblanc on 09/10/2020.
 
+#if !os(watchOS)
+
 import Foundation
 import QuartzCore
+
+public extension CGPoint {
+    var dec3: String {
+        return "\(x.dec3),\(y.dec3)"
+    }
+}
+
+public extension CGSize {
+    var dec3: String {
+        return "\(width.dec3),\(height.dec3)"
+    }
+}
 
 //MARK: - 3 Decimals formattter - Usefull for debug logging
 
@@ -48,14 +62,7 @@ public extension CGFloat {
     }
 }
 
-public extension CGPoint {
-    var dec3: String {
-        return "\(x.dec3),\(y.dec3)"
-    }
-}
 
-public extension CGSize {
-    var dec3: String {
-        return "\(width.dec3),\(height.dec3)"
-    }
-}
+#endif
+
+

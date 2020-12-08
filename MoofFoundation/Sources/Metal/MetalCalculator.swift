@@ -30,6 +30,8 @@ THE SOFTWARE. */
 //
 //  Created by Tristan Leblanc on 23/11/2020.
 
+#if !os(watchOS)
+
 import Foundation
 import MetalKit
 import simd
@@ -124,3 +126,5 @@ public extension CAMetalDrawable {
     var bounds: CGRect { return CGRect(x: 0, y: 0, width: self.texture.width, height: self.texture.height) }
 
 }
+
+#endif

@@ -30,6 +30,8 @@ THE SOFTWARE. */
 //
 //  Created by Tristan Leblanc on 20/11/2020.
 
+#if !os(watchOS)
+
 import Foundation
 import QuartzCore
 
@@ -108,3 +110,5 @@ open class FPLayer: CALayer {
         ctx.setLineWidth(constantLineWidth(for: lineWidth))
     }
 }
+
+#endif

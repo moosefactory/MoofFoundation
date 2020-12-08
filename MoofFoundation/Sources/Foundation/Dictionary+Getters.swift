@@ -31,7 +31,6 @@ THE SOFTWARE. */
 //  Created by Tristan Leblanc on 06/12/2020.
 
 import Foundation
-import QuartzCore
 
 extension Dictionary where Key == String, Value == Any {
     
@@ -50,11 +49,7 @@ extension Dictionary where Key == String, Value == Any {
     func double(_ key: Key) -> Double? {
         return self[key] as? Double
     }
-    
-    func cgFloat(_ key: Key) -> CGFloat? {
-        return self[key] as? CGFloat
-    }
-    
+
     func bool(_ key: Key) -> Bool? {
         return self[key] as? Bool
     }
@@ -66,4 +61,13 @@ extension Dictionary where Key == String, Value == Any {
     func array<T>(_ key: Key) -> Array<T>? {
         return self[key] as? Array<T>
     }
+    
+    #if !os(watchOS)
+
+    func cgFloat(_ key: Key) -> CGFloat? {
+        return self[key] as? CGFloat
+    }
+    
+    #endif
+    
 }

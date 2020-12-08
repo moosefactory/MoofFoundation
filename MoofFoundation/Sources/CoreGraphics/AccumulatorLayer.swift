@@ -30,6 +30,8 @@ THE SOFTWARE. */
 //
 //  Created by Tristan Leblanc on 31/08/2020.
 
+#if !os(watchOS)
+
 import Foundation
 import QuartzCore
 
@@ -172,3 +174,5 @@ extension AccumulatorLayer {
     }
 
 }
+
+#endif

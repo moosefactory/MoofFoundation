@@ -30,6 +30,8 @@ THE SOFTWARE. */
 //
 //  Created by Tristan Leblanc on 18/11/2020.
 
+#if !os(watchOS)
+
 import Foundation
 import QuartzCore
 
@@ -113,3 +115,5 @@ public extension CGContext {
         data[offset+3] = components.a
     }
 }
+
+#endif

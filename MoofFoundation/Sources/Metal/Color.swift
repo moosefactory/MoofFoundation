@@ -30,6 +30,9 @@
 //
 //  Created by Tristan Leblanc on 25/11/2020.
 
+
+#if !os(watchOS)
+
 import Foundation
 import QuartzCore
 
@@ -191,5 +194,7 @@ public extension NSColor {
         return Color(red: redComponent, green: greenComponent, blue: blueComponent, alpha: alphaComponent)
     }
 }
+
+#endif
 
 #endif

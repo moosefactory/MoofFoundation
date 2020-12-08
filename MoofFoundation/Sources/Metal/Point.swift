@@ -30,6 +30,8 @@ THE SOFTWARE. */
 //
 //  Created by Tristan Leblanc on 25/11/2020.
 
+#if !os(watchOS)
+
 import Foundation
 import QuartzCore
 #if os(macOS)
@@ -72,3 +74,5 @@ public extension CGPoint {
         return Point(x: Float(x), y: Float(y))
     }
 }
+
+#endif

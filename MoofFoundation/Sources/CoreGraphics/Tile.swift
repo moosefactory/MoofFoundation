@@ -30,6 +30,8 @@ THE SOFTWARE. */
 //
 //  Created by Tristan Leblanc on 19/11/2020.
 
+#if !os(watchOS)
+
 import Foundation
 import QuartzCore
 
@@ -158,3 +160,4 @@ public extension CGRect {
     }
 }
 
+#endif

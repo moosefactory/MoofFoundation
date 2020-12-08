@@ -30,6 +30,8 @@ THE SOFTWARE. */
 //
 //  Created by Tristan Leblanc on 19/11/2020.
 
+#if !os(watchOS)
+
 import Foundation
 import QuartzCore
 
@@ -76,3 +78,4 @@ extension CGVector {
     public var complex: CGComplex { return CGComplex(a: dx, b: dy) }
 }
 
+#endif

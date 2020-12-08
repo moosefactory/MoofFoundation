@@ -30,6 +30,8 @@ THE SOFTWARE. */
 //
 //  Created by Tristan Leblanc on 27/04/2020.
 
+#if !os(watchOS)
+
 import Foundation
 import QuartzCore
 #if os(macOS)
@@ -105,5 +107,7 @@ public extension NSColor {
     }
     
 }
+
+#endif
 
 #endif

@@ -30,6 +30,8 @@ THE SOFTWARE. */
 //
 //  Created by Tristan Leblanc on 25/09/2020.
 
+#if !os(watchOS)
+
 import Foundation
 import QuartzCore
 
@@ -97,3 +99,5 @@ public extension CGPoint {
         return PolarPoint(rho: sqrt( fx * fx + fy * fy), theta: atan2(x, y) )
     }
 }
+
+#endif
