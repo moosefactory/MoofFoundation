@@ -172,16 +172,16 @@ public extension Color {
     }
     
     
-    public var darken: Color {
+    var darken: Color {
         return with(brightnessFactor: 0.50)
     }
     
-    public var lighten: Color {
+    var lighten: Color {
         return with(brightnessFactor: 2)
     }
     
     /// Returns a black or white color that is visible on a background of given color
-    public static func visibleColor(on color: Color) -> Color {
+    static func visibleColor(on color: Color) -> Color {
         let brightness = color.hsla.l
         return brightness < 0.35 ? .white : .black
     }
