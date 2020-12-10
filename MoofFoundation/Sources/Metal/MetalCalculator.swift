@@ -47,7 +47,7 @@ open class MetalCalculator {
     }
     
     public private(set) var device: MTLDevice
-    public private(set) var computeFunctionPSO: MTLComputePipelineState!
+    public private(set) var computeFunctionPipelineState: MTLComputePipelineState!
     
     public private(set)var commandQueue: MTLCommandQueue!
     
@@ -83,7 +83,7 @@ open class MetalCalculator {
         
         // Create a compute pipeline state object.
         
-        try computeFunctionPSO = device.makeComputePipelineState(function: stateFunction)
+        try computeFunctionPipelineState = device.makeComputePipelineState(function: stateFunction)
         
         guard let commandQueue = device.makeCommandQueue() else {
             throw Errors.cantMakeCommandQueue
