@@ -121,6 +121,13 @@ open class MetalCalculator {
 }
 
 
+public extension MTLDevice {
+    func tryToMakeBuffer(length: Int, options: MTLResourceOptions = .storageModeShared) -> MTLBuffer? {
+        guard length > 0 else { return nil }
+        return makeBuffer(length: length, options: options)
+    }
+}
+
 public extension CAMetalDrawable {
 
     var bounds: CGRect { return CGRect(x: 0, y: 0, width: self.texture.width, height: self.texture.height) }
