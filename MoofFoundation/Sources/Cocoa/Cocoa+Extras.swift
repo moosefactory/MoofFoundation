@@ -64,6 +64,15 @@ public extension NSView {
         cacheDisplay(in: bounds, to: imageRepresentation)
         return NSImage(cgImage: imageRepresentation.cgImage!, size: bounds.size)
     }
+    
+    var width: CGFloat {
+        set {
+            addConstraint(NSLayoutConstraint(item: self, attribute: .width, relatedBy: NSLayoutConstraint.Relation.equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1, constant: 200))
+        }
+        get {
+            self.frame.size.width
+        }
+    }
 }
 
 // MARK: - Stack view utilities
@@ -84,6 +93,26 @@ public extension NSStackView {
 public extension NSSlider {
     var percentValue: Float {
         return Float(floatValue) / Float(maxValue)
+    }
+}
+
+public extension NSSwitch {
+    convenience init(target: AnyObject?, action: Selector?) {
+        self.init()
+        self.action = action
+        self.target = target
+    }
+}
+
+public extension NSControl {
+    var isOn: Bool {
+        if self is NSButton {
+            return (self as! NSButton).state == .on
+        }
+        if self is NSSwitch {
+            return (self as! NSSwitch).state == .on
+        }
+        return false
     }
 }
 

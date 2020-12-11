@@ -25,7 +25,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE. */
 /*--------------------------------------------------------------------------*/
 
-//  Slider.swift
+//  MFSlider.swift
 //  MoofFoundation
 //
 //  Created by Tristan Leblanc on 05/12/2020.
@@ -36,9 +36,12 @@ import Foundation
 
 import Cocoa
 
-class Slider: NSSlider {
-    var mouseDownClosure: ((Slider, NSEvent)->Void)?
-    var mouseUpClosure: ((Slider, NSEvent)->Void)?
+/// MFSlider is an extension of NSSlider that adds mouseUp/mouseDown events handling
+/// It also store the initial value when a drag occurs.
+
+class MFSlider: NSSlider {
+    var mouseDownClosure: ((MFSlider, NSEvent)->Void)?
+    var mouseUpClosure: ((MFSlider, NSEvent)->Void)?
 
     var initialValue: Double = 0
     

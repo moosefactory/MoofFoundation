@@ -64,7 +64,6 @@ public extension UUID {
     static var uuid: String { UUID().uuidString }
 }
 
-
 //MARK: - String
 
 public extension String {
@@ -87,6 +86,14 @@ public extension String {
     func filteringCharacters(in set: CharacterSet) -> String {
         guard !isEmpty else { return self }
         return String(unicodeScalars.filter { set.contains($0) })
+    }
+    
+    var localized: String {
+        return localized()
+    }
+    
+    func localized(in bundle: Bundle? = nil, table: String? = nil) -> String {
+        return (bundle ?? Bundle.main).localizedString(forKey: self, value: self, table: table)
     }
 }
 

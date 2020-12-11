@@ -50,6 +50,14 @@ public extension CGSize {
 //MARK: - 3 Decimals formattter - Usefull for debug logging
 
 public extension CGFloat {
+
+    var dec3: String {
+        Double(self).dec3
+    }
+}
+
+public extension Double {
+    
     static let formatter3Dec: NumberFormatter = {
         let f = NumberFormatter()
         f.maximumFractionDigits = 3
@@ -58,7 +66,7 @@ public extension CGFloat {
     
     var dec3: String {
         let n = NSNumber(value: Double(self))
-        return CGFloat.formatter3Dec.string(from: n) ?? "\(self)"
+        return Double.formatter3Dec.string(from: n) ?? "\(self)"
     }
 }
 
