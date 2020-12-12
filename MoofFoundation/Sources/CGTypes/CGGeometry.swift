@@ -114,7 +114,7 @@ public extension CGRect {
 
     // Mark: - Alignment Utilities
     
-    /// Return copy of self, centerd on point
+    /// Return copy of self, centered on point
     func centered(on point: CGPoint) -> CGRect {
         return CGRect(origin: point - boundsCenter, size: size)
     }
@@ -142,6 +142,11 @@ public extension CGRect {
     /// Returns copy of self with bottom left at (0,0)
     var atOriginZero: CGRect {
         return CGRect(origin: .zero, size: size)
+    }
+    
+    /// Inset by a fixed value on both axes
+    func inset(by d: CGFloat)-> CGRect {
+        return insetBy(dx: d, dy: d)
     }
     
     /// Returns a copy of self, scaled up and aligned on nearest grid

@@ -55,16 +55,19 @@ public extension NSView {
     }
 }
 
-/// Snapshot of the view
 
 public extension NSView {
-    
+
+    /// Snapshot of the view
+
     func snapshotImage() -> NSImage {
         let imageRepresentation = bitmapImageRepForCachingDisplay(in: bounds)!
         cacheDisplay(in: bounds, to: imageRepresentation)
         return NSImage(cgImage: imageRepresentation.cgImage!, size: bounds.size)
     }
-    
+
+    /// Quick width constraint
+
     var width: CGFloat {
         set {
             addConstraint(NSLayoutConstraint(item: self, attribute: .width, relatedBy: NSLayoutConstraint.Relation.equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1, constant: 200))
@@ -105,7 +108,7 @@ public extension NSSwitch {
 }
 
 public extension NSControl {
-    var isOn: Bool {
+    var on: Bool {
         if self is NSButton {
             return (self as! NSButton).state == .on
         }

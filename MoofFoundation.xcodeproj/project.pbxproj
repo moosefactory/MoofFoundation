@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC23A4972584564A00A6B68D /* Filters.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC23A4962584564A00A6B68D /* Filters.swift */; };
 		BC9B1199257E46A700286AAA /* MoofFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC9B118F257E46A700286AAA /* MoofFoundation.framework */; };
 		BC9B119E257E46A700286AAA /* MoofFoundationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9B119D257E46A700286AAA /* MoofFoundationTests.swift */; };
 		BC9B11A0257E46A700286AAA /* MoofFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = BC9B1192257E46A700286AAA /* MoofFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -41,6 +42,7 @@
 		BC9B11E8257E46F100286AAA /* HTTPResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9B11C9257E46F100286AAA /* HTTPResponse.swift */; };
 		BC9B11E9257E46F100286AAA /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9B11CA257E46F100286AAA /* Formatters.swift */; };
 		BC9B11EA257E46F100286AAA /* PixelsUnitsConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9B11CB257E46F100286AAA /* PixelsUnitsConversion.swift */; };
+		BCC879712584E65200E3AC54 /* UIKit+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC879702584E65200E3AC54 /* UIKit+Extras.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC23A4962584564A00A6B68D /* Filters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filters.swift; sourceTree = "<group>"; };
 		BC9B118F257E46A700286AAA /* MoofFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MoofFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC9B1192257E46A700286AAA /* MoofFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoofFoundation.h; sourceTree = "<group>"; };
 		BC9B1193257E46A700286AAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -93,6 +96,7 @@
 		BC9B11CB257E46F100286AAA /* PixelsUnitsConversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixelsUnitsConversion.swift; sourceTree = "<group>"; };
 		BC9B11EF257E4CBA00286AAA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BC9B151A257E590F00286AAA /* MoofFoundation.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MoofFoundation.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BCC879702584E65200E3AC54 /* UIKit+Extras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIKit+Extras.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +209,7 @@
 				BC9B11C0257E46F100286AAA /* CoreGraphics */,
 				BC9B11B8257E46F100286AAA /* Metal */,
 				BC9B11C7257E46F100286AAA /* Networking */,
+				BCC879722584E65A00E3AC54 /* UIKit */,
 				BC9B11ED257E475600286AAA /* Cocoa */,
 			);
 			path = Sources;
@@ -225,6 +230,7 @@
 				BC9B11AF257E46F000286AAA /* Random.swift */,
 				BC9B11A9257E46F000286AAA /* SystemUtils.swift */,
 				BC9B11AB257E46F000286AAA /* UserAction.swift */,
+				BC23A4962584564A00A6B68D /* Filters.swift */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -237,6 +243,14 @@
 				BC9B11B1257E46F000286AAA /* NSColor+Extras.swift */,
 			);
 			path = Cocoa;
+			sourceTree = "<group>";
+		};
+		BCC879722584E65A00E3AC54 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				BCC879702584E65200E3AC54 /* UIKit+Extras.swift */,
+			);
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -350,6 +364,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC9B11DB257E46F100286AAA /* Point.swift in Sources */,
+				BC23A4972584564A00A6B68D /* Filters.swift in Sources */,
 				BC9B11D6257E46F100286AAA /* CGGeometry.swift in Sources */,
 				BC9B11E1257E46F100286AAA /* CoreGraphics+Extras.swift in Sources */,
 				BC9B11CD257E46F100286AAA /* MFSlider.swift in Sources */,
@@ -377,6 +392,7 @@
 				BC9B11E3257E46F100286AAA /* BitmapUtils.swift in Sources */,
 				BC9B11D4257E46F100286AAA /* NSColor+Extras.swift in Sources */,
 				BC9B11CC257E46F100286AAA /* SystemUtils.swift in Sources */,
+				BCC879712584E65200E3AC54 /* UIKit+Extras.swift in Sources */,
 				BC9B11D5257E46F100286AAA /* FileUtilities.swift in Sources */,
 				BC9B11D2257E46F100286AAA /* Random.swift in Sources */,
 				BC9B11DD257E46F100286AAA /* Color.swift in Sources */,
