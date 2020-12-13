@@ -46,7 +46,10 @@ open class MetalCalculator {
         case cantMakeCommandQueue
     }
     
+    /// The MTLDevice that is attached to this calaculator
     public private(set) var device: MTLDevice
+    
+    /// The Compute function that will process i/o buffers
     public private(set) var computeFunctionPipelineState: MTLComputePipelineState!
     
     public private(set)var commandQueue: MTLCommandQueue!
@@ -60,9 +63,19 @@ open class MetalCalculator {
     /// If the calculator is used to render an image, attach a drawable
     public  var drawable: CAMetalDrawable?
     
+    /// Linked calculator
+    ///
+    /// To do multiple processing, attach a linked calculator.
+    ///
+    /// When this commands calculator are executed, it will yield to the next calculator
+    /// in the completion.
+    
+    var linkedCalculator: MetalCalculator?
+    
     public init(device: MTLDevice = MTLCreateSystemDefaultDevice()!,
-              computeFunctionName: String,
-              drawable: CAMetalDrawable? = nil) throws {
+                queue: MTLCommandQueue? = nil,
+                computeFunctionName: String,
+                drawable: CAMetalDrawable? = nil) throws {
         
         self.drawable = drawable
         self.device = device
@@ -85,15 +98,20 @@ open class MetalCalculator {
         
         try computeFunctionPipelineState = device.makeComputePipelineState(function: stateFunction)
         
-        guard let commandQueue = device.makeCommandQueue() else {
-            throw Errors.cantMakeCommandQueue
-        }
-        self.commandQueue = commandQueue
+        // If we use the queue from another calculator, we don't need to create one
+        
+        self.commandQueue = try queue ?? device.safeMakeCommandQueue()
     }
     
-    public func compute(rpd: MTLRenderPassDescriptor? = nil, completion: @escaping (MTLCommandBuffer)->Void) throws {
+    // Prepare the commands to send to GPU.
+    //
+    // We can pass optional render pass descriptor ( if renderer has multiple passes ) and optional queue, if we want to reuse a queue already allocated.
+    
+    public func compute(rpd: MTLRenderPassDescriptor? = nil,
+                        on queue: MTLCommandQueue? = nil,
+                        completion: @escaping (MTLCommandBuffer)->Void) throws {
         
-        // Create a command buffer to hold commands.
+        // If needed, create a command buffer to hold commands.
         
         guard let commandBuffer = commandQueue.makeCommandBuffer() else {
             throw Errors.cantMakeCommandBuffer
@@ -113,15 +131,19 @@ open class MetalCalculator {
         commandBuffer.commit()
     }
     
-//    public func makeComputeCommandBuffer() {
-//
-//    }
-    
     open func encodeCommand(commandBuffer: MTLCommandBuffer, rpd: MTLRenderPassDescriptor? = nil) throws { }
 }
 
 
 public extension MTLDevice {
+    
+    func safeMakeCommandQueue() throws -> MTLCommandQueue {
+        guard let commandQueue = makeCommandQueue() else {
+            throw MetalCalculator.Errors.cantMakeCommandQueue
+        }
+        return commandQueue
+    }
+    
     func tryToMakeBuffer(length: Int, options: MTLResourceOptions = .storageModeShared) -> MTLBuffer? {
         guard length > 0 else { return nil }
         return makeBuffer(length: length, options: options)
