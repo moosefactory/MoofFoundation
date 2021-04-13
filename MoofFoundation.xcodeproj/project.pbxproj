@@ -7,42 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BC23A4972584564A00A6B68D /* Filters.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC23A4962584564A00A6B68D /* Filters.swift */; };
+		BC5931E72625E89F00056C59 /* CGRect+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5931CD2625E89F00056C59 /* CGRect+Extras.swift */; };
+		BC5931E82625E89F00056C59 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5931CE2625E89F00056C59 /* Random.swift */; };
+		BC5931E92625E89F00056C59 /* String+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5931CF2625E89F00056C59 /* String+Extras.swift */; };
+		BC5931EA2625E89F00056C59 /* CGColor+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5931D02625E89F00056C59 /* CGColor+Extras.swift */; };
+		BC5931EB2625E89F00056C59 /* CGSize+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5931D12625E89F00056C59 /* CGSize+Extras.swift */; };
+		BC5931EC2625E89F00056C59 /* FileWrapper+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5931D22625E89F00056C59 /* FileWrapper+Extras.swift */; };
+		BC5931ED2625E89F00056C59 /* CGRect+Handles.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5931D32625E89F00056C59 /* CGRect+Handles.swift */; };
+		BC5931EE2625E89F00056C59 /* URL+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5931D42625E89F00056C59 /* URL+Extras.swift */; };
+		BC5931EF2625E89F00056C59 /* CGContext+Bitmap.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5931D52625E89F00056C59 /* CGContext+Bitmap.swift */; };
+		BC5931F02625E89F00056C59 /* CGPoint+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5931D62625E89F00056C59 /* CGPoint+Extras.swift */; };
+		BC5931F12625E89F00056C59 /* Network+FileUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5931D72625E89F00056C59 /* Network+FileUploader.swift */; };
+		BC5931F22625E89F00056C59 /* Network+HTTPResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5931D82625E89F00056C59 /* Network+HTTPResponse.swift */; };
+		BC5931F32625E89F00056C59 /* Codable+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5931D92625E89F00056C59 /* Codable+JSON.swift */; };
+		BC5931F42625E89F00056C59 /* CGContext+Tiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5931DA2625E89F00056C59 /* CGContext+Tiles.swift */; };
+		BC5931F52625E89F00056C59 /* MoofFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5931DB2625E89F00056C59 /* MoofFoundation.swift */; };
+		BC5931F62625E89F00056C59 /* CGGeometry+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5931DC2625E89F00056C59 /* CGGeometry+Operators.swift */; };
+		BC5931F72625E89F00056C59 /* CGPolarPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5931DD2625E89F00056C59 /* CGPolarPoint.swift */; };
+		BC5931F82625E89F00056C59 /* Dictionary+Getters.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5931DE2625E89F00056C59 /* Dictionary+Getters.swift */; };
+		BC5931F92625E89F00056C59 /* Image+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5931DF2625E89F00056C59 /* Image+Extras.swift */; };
+		BC5931FA2625E89F00056C59 /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5931E02625E89F00056C59 /* Formatters.swift */; };
+		BC5931FB2625E89F00056C59 /* CGFloat+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5931E12625E89F00056C59 /* CGFloat+Extras.swift */; };
+		BC5931FC2625E89F00056C59 /* FileManager+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5931E22625E89F00056C59 /* FileManager+Extras.swift */; };
+		BC5931FD2625E89F00056C59 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5931E32625E89F00056C59 /* Color.swift */; };
+		BC5931FE2625E89F00056C59 /* CGComplex.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5931E42625E89F00056C59 /* CGComplex.swift */; };
+		BC5931FF2625E89F00056C59 /* SystemUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5931E52625E89F00056C59 /* SystemUtils.swift */; };
+		BC5932002625E89F00056C59 /* Mirror+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5931E62625E89F00056C59 /* Mirror+Extras.swift */; };
 		BC9B1199257E46A700286AAA /* MoofFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC9B118F257E46A700286AAA /* MoofFoundation.framework */; };
 		BC9B119E257E46A700286AAA /* MoofFoundationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9B119D257E46A700286AAA /* MoofFoundationTests.swift */; };
-		BC9B11A0257E46A700286AAA /* MoofFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = BC9B1192257E46A700286AAA /* MoofFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC9B11CC257E46F100286AAA /* SystemUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9B11A9257E46F000286AAA /* SystemUtils.swift */; };
-		BC9B11CD257E46F100286AAA /* MFSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9B11AA257E46F000286AAA /* MFSlider.swift */; };
-		BC9B11CE257E46F100286AAA /* UserAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9B11AB257E46F000286AAA /* UserAction.swift */; };
-		BC9B11CF257E46F100286AAA /* Dictionary+Getters.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9B11AC257E46F000286AAA /* Dictionary+Getters.swift */; };
-		BC9B11D0257E46F100286AAA /* Image+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9B11AD257E46F000286AAA /* Image+Extras.swift */; };
-		BC9B11D1257E46F100286AAA /* ObjectsBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9B11AE257E46F000286AAA /* ObjectsBag.swift */; };
-		BC9B11D2257E46F100286AAA /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9B11AF257E46F000286AAA /* Random.swift */; };
-		BC9B11D3257E46F100286AAA /* Conversions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9B11B0257E46F000286AAA /* Conversions.swift */; };
-		BC9B11D4257E46F100286AAA /* NSColor+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9B11B1257E46F000286AAA /* NSColor+Extras.swift */; };
-		BC9B11D5257E46F100286AAA /* FileUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9B11B2257E46F000286AAA /* FileUtilities.swift */; };
-		BC9B11D6257E46F100286AAA /* CGGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9B11B4257E46F000286AAA /* CGGeometry.swift */; };
-		BC9B11D7257E46F100286AAA /* CGGeometry+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9B11B5257E46F000286AAA /* CGGeometry+Operators.swift */; };
-		BC9B11D8257E46F100286AAA /* CGPolarPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9B11B6257E46F100286AAA /* CGPolarPoint.swift */; };
-		BC9B11D9257E46F100286AAA /* CGComplex.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9B11B7257E46F100286AAA /* CGComplex.swift */; };
-		BC9B11DA257E46F100286AAA /* MetalCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9B11B9257E46F100286AAA /* MetalCalculator.swift */; };
-		BC9B11DB257E46F100286AAA /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9B11BA257E46F100286AAA /* Point.swift */; };
-		BC9B11DC257E46F100286AAA /* SIMD Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9B11BB257E46F100286AAA /* SIMD Utils.swift */; };
-		BC9B11DD257E46F100286AAA /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9B11BC257E46F100286AAA /* Color.swift */; };
-		BC9B11DE257E46F100286AAA /* Mirror+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9B11BD257E46F100286AAA /* Mirror+Extras.swift */; };
-		BC9B11DF257E46F100286AAA /* Cocoa+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9B11BE257E46F100286AAA /* Cocoa+Extras.swift */; };
-		BC9B11E0257E46F100286AAA /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9B11BF257E46F100286AAA /* JSON.swift */; };
-		BC9B11E1257E46F100286AAA /* CoreGraphics+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9B11C1257E46F100286AAA /* CoreGraphics+Extras.swift */; };
-		BC9B11E2257E46F100286AAA /* FPLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9B11C2257E46F100286AAA /* FPLayer.swift */; };
-		BC9B11E3257E46F100286AAA /* BitmapUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9B11C3257E46F100286AAA /* BitmapUtils.swift */; };
-		BC9B11E4257E46F100286AAA /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9B11C4257E46F100286AAA /* Tile.swift */; };
-		BC9B11E5257E46F100286AAA /* AccumulatorLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9B11C5257E46F100286AAA /* AccumulatorLayer.swift */; };
-		BC9B11E6257E46F100286AAA /* Foundation+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9B11C6257E46F100286AAA /* Foundation+Extras.swift */; };
-		BC9B11E7257E46F100286AAA /* FileUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9B11C8257E46F100286AAA /* FileUploader.swift */; };
-		BC9B11E8257E46F100286AAA /* HTTPResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9B11C9257E46F100286AAA /* HTTPResponse.swift */; };
-		BC9B11E9257E46F100286AAA /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9B11CA257E46F100286AAA /* Formatters.swift */; };
-		BC9B11EA257E46F100286AAA /* PixelsUnitsConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9B11CB257E46F100286AAA /* PixelsUnitsConversion.swift */; };
-		BCC879712584E65200E3AC54 /* UIKit+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC879702584E65200E3AC54 /* UIKit+Extras.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,47 +48,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BC23A4962584564A00A6B68D /* Filters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filters.swift; sourceTree = "<group>"; };
+		BC5931BA2625DA2500056C59 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BC5931CD2625E89F00056C59 /* CGRect+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+Extras.swift"; sourceTree = "<group>"; };
+		BC5931CE2625E89F00056C59 /* Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
+		BC5931CF2625E89F00056C59 /* String+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extras.swift"; sourceTree = "<group>"; };
+		BC5931D02625E89F00056C59 /* CGColor+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGColor+Extras.swift"; sourceTree = "<group>"; };
+		BC5931D12625E89F00056C59 /* CGSize+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGSize+Extras.swift"; sourceTree = "<group>"; };
+		BC5931D22625E89F00056C59 /* FileWrapper+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileWrapper+Extras.swift"; sourceTree = "<group>"; };
+		BC5931D32625E89F00056C59 /* CGRect+Handles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+Handles.swift"; sourceTree = "<group>"; };
+		BC5931D42625E89F00056C59 /* URL+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+Extras.swift"; sourceTree = "<group>"; };
+		BC5931D52625E89F00056C59 /* CGContext+Bitmap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGContext+Bitmap.swift"; sourceTree = "<group>"; };
+		BC5931D62625E89F00056C59 /* CGPoint+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extras.swift"; sourceTree = "<group>"; };
+		BC5931D72625E89F00056C59 /* Network+FileUploader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Network+FileUploader.swift"; sourceTree = "<group>"; };
+		BC5931D82625E89F00056C59 /* Network+HTTPResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Network+HTTPResponse.swift"; sourceTree = "<group>"; };
+		BC5931D92625E89F00056C59 /* Codable+JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Codable+JSON.swift"; sourceTree = "<group>"; };
+		BC5931DA2625E89F00056C59 /* CGContext+Tiles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGContext+Tiles.swift"; sourceTree = "<group>"; };
+		BC5931DB2625E89F00056C59 /* MoofFoundation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoofFoundation.swift; sourceTree = "<group>"; };
+		BC5931DC2625E89F00056C59 /* CGGeometry+Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGGeometry+Operators.swift"; sourceTree = "<group>"; };
+		BC5931DD2625E89F00056C59 /* CGPolarPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPolarPoint.swift; sourceTree = "<group>"; };
+		BC5931DE2625E89F00056C59 /* Dictionary+Getters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+Getters.swift"; sourceTree = "<group>"; };
+		BC5931DF2625E89F00056C59 /* Image+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+Extras.swift"; sourceTree = "<group>"; };
+		BC5931E02625E89F00056C59 /* Formatters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Formatters.swift; sourceTree = "<group>"; };
+		BC5931E12625E89F00056C59 /* CGFloat+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extras.swift"; sourceTree = "<group>"; };
+		BC5931E22625E89F00056C59 /* FileManager+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileManager+Extras.swift"; sourceTree = "<group>"; };
+		BC5931E32625E89F00056C59 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		BC5931E42625E89F00056C59 /* CGComplex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGComplex.swift; sourceTree = "<group>"; };
+		BC5931E52625E89F00056C59 /* SystemUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemUtils.swift; sourceTree = "<group>"; };
+		BC5931E62625E89F00056C59 /* Mirror+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Mirror+Extras.swift"; sourceTree = "<group>"; };
 		BC9B118F257E46A700286AAA /* MoofFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MoofFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC9B1192257E46A700286AAA /* MoofFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoofFoundation.h; sourceTree = "<group>"; };
 		BC9B1193257E46A700286AAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC9B1198257E46A700286AAA /* MoofFoundationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoofFoundationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC9B119D257E46A700286AAA /* MoofFoundationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoofFoundationTests.swift; sourceTree = "<group>"; };
 		BC9B119F257E46A700286AAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BC9B11A9257E46F000286AAA /* SystemUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemUtils.swift; sourceTree = "<group>"; };
-		BC9B11AA257E46F000286AAA /* MFSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MFSlider.swift; sourceTree = "<group>"; };
-		BC9B11AB257E46F000286AAA /* UserAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAction.swift; sourceTree = "<group>"; };
-		BC9B11AC257E46F000286AAA /* Dictionary+Getters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+Getters.swift"; sourceTree = "<group>"; };
-		BC9B11AD257E46F000286AAA /* Image+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+Extras.swift"; sourceTree = "<group>"; };
-		BC9B11AE257E46F000286AAA /* ObjectsBag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectsBag.swift; sourceTree = "<group>"; };
-		BC9B11AF257E46F000286AAA /* Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
-		BC9B11B0257E46F000286AAA /* Conversions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Conversions.swift; sourceTree = "<group>"; };
-		BC9B11B1257E46F000286AAA /* NSColor+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSColor+Extras.swift"; sourceTree = "<group>"; };
-		BC9B11B2257E46F000286AAA /* FileUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileUtilities.swift; sourceTree = "<group>"; };
-		BC9B11B4257E46F000286AAA /* CGGeometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGGeometry.swift; sourceTree = "<group>"; };
-		BC9B11B5257E46F000286AAA /* CGGeometry+Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGGeometry+Operators.swift"; sourceTree = "<group>"; };
-		BC9B11B6257E46F100286AAA /* CGPolarPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPolarPoint.swift; sourceTree = "<group>"; };
-		BC9B11B7257E46F100286AAA /* CGComplex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGComplex.swift; sourceTree = "<group>"; };
-		BC9B11B9257E46F100286AAA /* MetalCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalCalculator.swift; sourceTree = "<group>"; };
-		BC9B11BA257E46F100286AAA /* Point.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
-		BC9B11BB257E46F100286AAA /* SIMD Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SIMD Utils.swift"; sourceTree = "<group>"; };
-		BC9B11BC257E46F100286AAA /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
-		BC9B11BD257E46F100286AAA /* Mirror+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Mirror+Extras.swift"; sourceTree = "<group>"; };
-		BC9B11BE257E46F100286AAA /* Cocoa+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Cocoa+Extras.swift"; sourceTree = "<group>"; };
-		BC9B11BF257E46F100286AAA /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
-		BC9B11C1257E46F100286AAA /* CoreGraphics+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CoreGraphics+Extras.swift"; sourceTree = "<group>"; };
-		BC9B11C2257E46F100286AAA /* FPLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FPLayer.swift; sourceTree = "<group>"; };
-		BC9B11C3257E46F100286AAA /* BitmapUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitmapUtils.swift; sourceTree = "<group>"; };
-		BC9B11C4257E46F100286AAA /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
-		BC9B11C5257E46F100286AAA /* AccumulatorLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccumulatorLayer.swift; sourceTree = "<group>"; };
-		BC9B11C6257E46F100286AAA /* Foundation+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Foundation+Extras.swift"; sourceTree = "<group>"; };
-		BC9B11C8257E46F100286AAA /* FileUploader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileUploader.swift; sourceTree = "<group>"; };
-		BC9B11C9257E46F100286AAA /* HTTPResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPResponse.swift; sourceTree = "<group>"; };
-		BC9B11CA257E46F100286AAA /* Formatters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Formatters.swift; sourceTree = "<group>"; };
-		BC9B11CB257E46F100286AAA /* PixelsUnitsConversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixelsUnitsConversion.swift; sourceTree = "<group>"; };
 		BC9B11EF257E4CBA00286AAA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BC9B151A257E590F00286AAA /* MoofFoundation.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MoofFoundation.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BCC879702584E65200E3AC54 /* UIKit+Extras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIKit+Extras.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,10 +103,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC5931CB2625E89F00056C59 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				BC5931CC2625E89F00056C59 /* MoofFoundation */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		BC5931CC2625E89F00056C59 /* MoofFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				BC5931CD2625E89F00056C59 /* CGRect+Extras.swift */,
+				BC5931CE2625E89F00056C59 /* Random.swift */,
+				BC5931CF2625E89F00056C59 /* String+Extras.swift */,
+				BC5931D02625E89F00056C59 /* CGColor+Extras.swift */,
+				BC5931D12625E89F00056C59 /* CGSize+Extras.swift */,
+				BC5931D22625E89F00056C59 /* FileWrapper+Extras.swift */,
+				BC5931D32625E89F00056C59 /* CGRect+Handles.swift */,
+				BC5931D42625E89F00056C59 /* URL+Extras.swift */,
+				BC5931D52625E89F00056C59 /* CGContext+Bitmap.swift */,
+				BC5931D62625E89F00056C59 /* CGPoint+Extras.swift */,
+				BC5931D72625E89F00056C59 /* Network+FileUploader.swift */,
+				BC5931D82625E89F00056C59 /* Network+HTTPResponse.swift */,
+				BC5931D92625E89F00056C59 /* Codable+JSON.swift */,
+				BC5931DA2625E89F00056C59 /* CGContext+Tiles.swift */,
+				BC5931DB2625E89F00056C59 /* MoofFoundation.swift */,
+				BC5931DC2625E89F00056C59 /* CGGeometry+Operators.swift */,
+				BC5931DD2625E89F00056C59 /* CGPolarPoint.swift */,
+				BC5931DE2625E89F00056C59 /* Dictionary+Getters.swift */,
+				BC5931DF2625E89F00056C59 /* Image+Extras.swift */,
+				BC5931E02625E89F00056C59 /* Formatters.swift */,
+				BC5931E12625E89F00056C59 /* CGFloat+Extras.swift */,
+				BC5931E22625E89F00056C59 /* FileManager+Extras.swift */,
+				BC5931E32625E89F00056C59 /* Color.swift */,
+				BC5931E42625E89F00056C59 /* CGComplex.swift */,
+				BC5931E52625E89F00056C59 /* SystemUtils.swift */,
+				BC5931E62625E89F00056C59 /* Mirror+Extras.swift */,
+			);
+			path = MoofFoundation;
+			sourceTree = "<group>";
+		};
 		BC9B1185257E46A700286AAA = {
 			isa = PBXGroup;
 			children = (
 				BC9B11EF257E4CBA00286AAA /* README.md */,
+				BC5931BA2625DA2500056C59 /* LICENSE */,
 				BC9B151A257E590F00286AAA /* MoofFoundation.podspec */,
 				BC9B1191257E46A700286AAA /* MoofFoundation */,
 				BC9B119C257E46A700286AAA /* MoofFoundationTests */,
@@ -141,9 +168,8 @@
 		BC9B1191257E46A700286AAA /* MoofFoundation */ = {
 			isa = PBXGroup;
 			children = (
-				BC9B1192257E46A700286AAA /* MoofFoundation.h */,
 				BC9B1193257E46A700286AAA /* Info.plist */,
-				BC9B11EB257E46FC00286AAA /* Sources */,
+				BC5931CB2625E89F00056C59 /* Sources */,
 			);
 			path = MoofFoundation;
 			sourceTree = "<group>";
@@ -157,102 +183,6 @@
 			path = MoofFoundationTests;
 			sourceTree = "<group>";
 		};
-		BC9B11B3257E46F000286AAA /* CGTypes */ = {
-			isa = PBXGroup;
-			children = (
-				BC9B11B4257E46F000286AAA /* CGGeometry.swift */,
-				BC9B11B5257E46F000286AAA /* CGGeometry+Operators.swift */,
-				BC9B11B6257E46F100286AAA /* CGPolarPoint.swift */,
-				BC9B11B7257E46F100286AAA /* CGComplex.swift */,
-			);
-			path = CGTypes;
-			sourceTree = "<group>";
-		};
-		BC9B11B8257E46F100286AAA /* Metal */ = {
-			isa = PBXGroup;
-			children = (
-				BC9B11B9257E46F100286AAA /* MetalCalculator.swift */,
-				BC9B11BA257E46F100286AAA /* Point.swift */,
-				BC9B11BB257E46F100286AAA /* SIMD Utils.swift */,
-				BC9B11BC257E46F100286AAA /* Color.swift */,
-			);
-			path = Metal;
-			sourceTree = "<group>";
-		};
-		BC9B11C0257E46F100286AAA /* CoreGraphics */ = {
-			isa = PBXGroup;
-			children = (
-				BC9B11AD257E46F000286AAA /* Image+Extras.swift */,
-				BC9B11C1257E46F100286AAA /* CoreGraphics+Extras.swift */,
-				BC9B11C2257E46F100286AAA /* FPLayer.swift */,
-				BC9B11C3257E46F100286AAA /* BitmapUtils.swift */,
-				BC9B11C4257E46F100286AAA /* Tile.swift */,
-				BC9B11C5257E46F100286AAA /* AccumulatorLayer.swift */,
-			);
-			path = CoreGraphics;
-			sourceTree = "<group>";
-		};
-		BC9B11C7257E46F100286AAA /* Networking */ = {
-			isa = PBXGroup;
-			children = (
-				BC9B11C8257E46F100286AAA /* FileUploader.swift */,
-				BC9B11C9257E46F100286AAA /* HTTPResponse.swift */,
-			);
-			path = Networking;
-			sourceTree = "<group>";
-		};
-		BC9B11EB257E46FC00286AAA /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				BC9B11EC257E471200286AAA /* Foundation */,
-				BC9B11B3257E46F000286AAA /* CGTypes */,
-				BC9B11C0257E46F100286AAA /* CoreGraphics */,
-				BC9B11B8257E46F100286AAA /* Metal */,
-				BC9B11C7257E46F100286AAA /* Networking */,
-				BCC879722584E65A00E3AC54 /* UIKit */,
-				BC9B11ED257E475600286AAA /* Cocoa */,
-			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
-		BC9B11EC257E471200286AAA /* Foundation */ = {
-			isa = PBXGroup;
-			children = (
-				BC9B11B0257E46F000286AAA /* Conversions.swift */,
-				BC9B11AC257E46F000286AAA /* Dictionary+Getters.swift */,
-				BC9B11B2257E46F000286AAA /* FileUtilities.swift */,
-				BC9B11CA257E46F100286AAA /* Formatters.swift */,
-				BC9B11C6257E46F100286AAA /* Foundation+Extras.swift */,
-				BC9B11BF257E46F100286AAA /* JSON.swift */,
-				BC9B11BD257E46F100286AAA /* Mirror+Extras.swift */,
-				BC9B11AE257E46F000286AAA /* ObjectsBag.swift */,
-				BC9B11CB257E46F100286AAA /* PixelsUnitsConversion.swift */,
-				BC9B11AF257E46F000286AAA /* Random.swift */,
-				BC9B11A9257E46F000286AAA /* SystemUtils.swift */,
-				BC9B11AB257E46F000286AAA /* UserAction.swift */,
-				BC23A4962584564A00A6B68D /* Filters.swift */,
-			);
-			path = Foundation;
-			sourceTree = "<group>";
-		};
-		BC9B11ED257E475600286AAA /* Cocoa */ = {
-			isa = PBXGroup;
-			children = (
-				BC9B11BE257E46F100286AAA /* Cocoa+Extras.swift */,
-				BC9B11AA257E46F000286AAA /* MFSlider.swift */,
-				BC9B11B1257E46F000286AAA /* NSColor+Extras.swift */,
-			);
-			path = Cocoa;
-			sourceTree = "<group>";
-		};
-		BCC879722584E65A00E3AC54 /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-				BCC879702584E65200E3AC54 /* UIKit+Extras.swift */,
-			);
-			path = UIKit;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -260,7 +190,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC9B11A0257E46A700286AAA /* MoofFoundation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,7 +244,7 @@
 				TargetAttributes = {
 					BC9B118E257E46A700286AAA = {
 						CreatedOnToolsVersion = 11.6;
-						LastSwiftMigration = 1160;
+						LastSwiftMigration = 1230;
 					};
 					BC9B1197257E46A700286AAA = {
 						CreatedOnToolsVersion = 11.6;
@@ -363,39 +292,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC9B11DB257E46F100286AAA /* Point.swift in Sources */,
-				BC23A4972584564A00A6B68D /* Filters.swift in Sources */,
-				BC9B11D6257E46F100286AAA /* CGGeometry.swift in Sources */,
-				BC9B11E1257E46F100286AAA /* CoreGraphics+Extras.swift in Sources */,
-				BC9B11CD257E46F100286AAA /* MFSlider.swift in Sources */,
-				BC9B11DE257E46F100286AAA /* Mirror+Extras.swift in Sources */,
-				BC9B11DA257E46F100286AAA /* MetalCalculator.swift in Sources */,
-				BC9B11E2257E46F100286AAA /* FPLayer.swift in Sources */,
-				BC9B11E4257E46F100286AAA /* Tile.swift in Sources */,
-				BC9B11D9257E46F100286AAA /* CGComplex.swift in Sources */,
-				BC9B11E7257E46F100286AAA /* FileUploader.swift in Sources */,
-				BC9B11D8257E46F100286AAA /* CGPolarPoint.swift in Sources */,
-				BC9B11CE257E46F100286AAA /* UserAction.swift in Sources */,
-				BC9B11D0257E46F100286AAA /* Image+Extras.swift in Sources */,
-				BC9B11E5257E46F100286AAA /* AccumulatorLayer.swift in Sources */,
-				BC9B11D1257E46F100286AAA /* ObjectsBag.swift in Sources */,
-				BC9B11D7257E46F100286AAA /* CGGeometry+Operators.swift in Sources */,
-				BC9B11CF257E46F100286AAA /* Dictionary+Getters.swift in Sources */,
-				BC9B11DF257E46F100286AAA /* Cocoa+Extras.swift in Sources */,
-				BC9B11E9257E46F100286AAA /* Formatters.swift in Sources */,
-				BC9B11DC257E46F100286AAA /* SIMD Utils.swift in Sources */,
-				BC9B11D3257E46F100286AAA /* Conversions.swift in Sources */,
-				BC9B11EA257E46F100286AAA /* PixelsUnitsConversion.swift in Sources */,
-				BC9B11E6257E46F100286AAA /* Foundation+Extras.swift in Sources */,
-				BC9B11E8257E46F100286AAA /* HTTPResponse.swift in Sources */,
-				BC9B11E0257E46F100286AAA /* JSON.swift in Sources */,
-				BC9B11E3257E46F100286AAA /* BitmapUtils.swift in Sources */,
-				BC9B11D4257E46F100286AAA /* NSColor+Extras.swift in Sources */,
-				BC9B11CC257E46F100286AAA /* SystemUtils.swift in Sources */,
-				BCC879712584E65200E3AC54 /* UIKit+Extras.swift in Sources */,
-				BC9B11D5257E46F100286AAA /* FileUtilities.swift in Sources */,
-				BC9B11D2257E46F100286AAA /* Random.swift in Sources */,
-				BC9B11DD257E46F100286AAA /* Color.swift in Sources */,
+				BC5931EF2625E89F00056C59 /* CGContext+Bitmap.swift in Sources */,
+				BC5931F92625E89F00056C59 /* Image+Extras.swift in Sources */,
+				BC5931FD2625E89F00056C59 /* Color.swift in Sources */,
+				BC5932002625E89F00056C59 /* Mirror+Extras.swift in Sources */,
+				BC5931F42625E89F00056C59 /* CGContext+Tiles.swift in Sources */,
+				BC5931FE2625E89F00056C59 /* CGComplex.swift in Sources */,
+				BC5931EE2625E89F00056C59 /* URL+Extras.swift in Sources */,
+				BC5931F52625E89F00056C59 /* MoofFoundation.swift in Sources */,
+				BC5931E82625E89F00056C59 /* Random.swift in Sources */,
+				BC5931F62625E89F00056C59 /* CGGeometry+Operators.swift in Sources */,
+				BC5931F82625E89F00056C59 /* Dictionary+Getters.swift in Sources */,
+				BC5931FC2625E89F00056C59 /* FileManager+Extras.swift in Sources */,
+				BC5931E92625E89F00056C59 /* String+Extras.swift in Sources */,
+				BC5931ED2625E89F00056C59 /* CGRect+Handles.swift in Sources */,
+				BC5931F72625E89F00056C59 /* CGPolarPoint.swift in Sources */,
+				BC5931F22625E89F00056C59 /* Network+HTTPResponse.swift in Sources */,
+				BC5931F12625E89F00056C59 /* Network+FileUploader.swift in Sources */,
+				BC5931EC2625E89F00056C59 /* FileWrapper+Extras.swift in Sources */,
+				BC5931FB2625E89F00056C59 /* CGFloat+Extras.swift in Sources */,
+				BC5931F32625E89F00056C59 /* Codable+JSON.swift in Sources */,
+				BC5931EB2625E89F00056C59 /* CGSize+Extras.swift in Sources */,
+				BC5931F02625E89F00056C59 /* CGPoint+Extras.swift in Sources */,
+				BC5931EA2625E89F00056C59 /* CGColor+Extras.swift in Sources */,
+				BC5931FA2625E89F00056C59 /* Formatters.swift in Sources */,
+				BC5931FF2625E89F00056C59 /* SystemUtils.swift in Sources */,
+				BC5931E72625E89F00056C59 /* CGRect+Extras.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +344,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					arm64,
+					x86_64,
+				);
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -474,9 +401,9 @@
 				MACOSX_DEPLOYMENT_TARGET = "";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos appletvossimulator appletvos watchos watchsimulator";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos appletvossimulator appletvos watchos watchsimulator macosx";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -492,6 +419,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					arm64,
+					x86_64,
+				);
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -539,7 +471,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos appletvossimulator appletvos watchos watchsimulator";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos appletvossimulator appletvos watchos watchsimulator macosx";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
@@ -555,10 +487,15 @@
 		BC9B11A4257E46A700286AAA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					x86_64,
+					arm64,
+				);
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = VMXFN634RR;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -569,6 +506,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.1;
 				ONLY_ACTIVE_ARCH = $inherited;
 				PRODUCT_BUNDLE_IDENTIFIER = com.moosefactory.MoofFoundation;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -583,10 +521,15 @@
 		BC9B11A5257E46A700286AAA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					x86_64,
+					arm64,
+				);
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = VMXFN634RR;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -597,6 +540,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.1;
 				ONLY_ACTIVE_ARCH = $inherited;
 				PRODUCT_BUNDLE_IDENTIFIER = com.moosefactory.MoofFoundation;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -612,7 +556,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VMXFN634RR;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MoofFoundationTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -631,7 +575,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VMXFN634RR;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MoofFoundationTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
