@@ -7,13 +7,13 @@ let package = Package(
     name: "MoofFoundation",
     platforms: [
         .macOS(.v10_15),
-        .iOS(.v13_00),
+        .iOS(.v13)
     ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "MoofFoundation",
-            targets: ["MoofFoundation"]),
+            targets: ["MoofFoundation"])
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -27,6 +27,6 @@ let package = Package(
             dependencies: []),
         .testTarget(
             name: "MoofFoundationTests",
-            dependencies: ["MoofFoundation"]),
+            dependencies: ["MoofFoundation"])
     ]
 )
