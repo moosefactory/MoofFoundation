@@ -7,32 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BC5931E72625E89F00056C59 /* CGRect+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5931CD2625E89F00056C59 /* CGRect+Extras.swift */; };
-		BC5931E82625E89F00056C59 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5931CE2625E89F00056C59 /* Random.swift */; };
-		BC5931E92625E89F00056C59 /* String+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5931CF2625E89F00056C59 /* String+Extras.swift */; };
-		BC5931EA2625E89F00056C59 /* CGColor+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5931D02625E89F00056C59 /* CGColor+Extras.swift */; };
-		BC5931EB2625E89F00056C59 /* CGSize+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5931D12625E89F00056C59 /* CGSize+Extras.swift */; };
-		BC5931EC2625E89F00056C59 /* FileWrapper+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5931D22625E89F00056C59 /* FileWrapper+Extras.swift */; };
-		BC5931ED2625E89F00056C59 /* CGRect+Handles.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5931D32625E89F00056C59 /* CGRect+Handles.swift */; };
-		BC5931EE2625E89F00056C59 /* URL+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5931D42625E89F00056C59 /* URL+Extras.swift */; };
-		BC5931EF2625E89F00056C59 /* CGContext+Bitmap.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5931D52625E89F00056C59 /* CGContext+Bitmap.swift */; };
-		BC5931F02625E89F00056C59 /* CGPoint+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5931D62625E89F00056C59 /* CGPoint+Extras.swift */; };
-		BC5931F12625E89F00056C59 /* Network+FileUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5931D72625E89F00056C59 /* Network+FileUploader.swift */; };
-		BC5931F22625E89F00056C59 /* Network+HTTPResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5931D82625E89F00056C59 /* Network+HTTPResponse.swift */; };
-		BC5931F32625E89F00056C59 /* Codable+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5931D92625E89F00056C59 /* Codable+JSON.swift */; };
-		BC5931F42625E89F00056C59 /* CGContext+Tiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5931DA2625E89F00056C59 /* CGContext+Tiles.swift */; };
-		BC5931F52625E89F00056C59 /* MoofFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5931DB2625E89F00056C59 /* MoofFoundation.swift */; };
-		BC5931F62625E89F00056C59 /* CGGeometry+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5931DC2625E89F00056C59 /* CGGeometry+Operators.swift */; };
-		BC5931F72625E89F00056C59 /* CGPolarPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5931DD2625E89F00056C59 /* CGPolarPoint.swift */; };
-		BC5931F82625E89F00056C59 /* Dictionary+Getters.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5931DE2625E89F00056C59 /* Dictionary+Getters.swift */; };
-		BC5931F92625E89F00056C59 /* Image+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5931DF2625E89F00056C59 /* Image+Extras.swift */; };
-		BC5931FA2625E89F00056C59 /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5931E02625E89F00056C59 /* Formatters.swift */; };
-		BC5931FB2625E89F00056C59 /* CGFloat+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5931E12625E89F00056C59 /* CGFloat+Extras.swift */; };
-		BC5931FC2625E89F00056C59 /* FileManager+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5931E22625E89F00056C59 /* FileManager+Extras.swift */; };
-		BC5931FD2625E89F00056C59 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5931E32625E89F00056C59 /* Color.swift */; };
-		BC5931FE2625E89F00056C59 /* CGComplex.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5931E42625E89F00056C59 /* CGComplex.swift */; };
-		BC5931FF2625E89F00056C59 /* SystemUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5931E52625E89F00056C59 /* SystemUtils.swift */; };
-		BC5932002625E89F00056C59 /* Mirror+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5931E62625E89F00056C59 /* Mirror+Extras.swift */; };
+		BC5932FC2625FF0800056C59 /* CGRect+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5932E22625FF0800056C59 /* CGRect+Extras.swift */; };
+		BC5932FD2625FF0800056C59 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5932E32625FF0800056C59 /* Random.swift */; };
+		BC5932FE2625FF0800056C59 /* String+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5932E42625FF0800056C59 /* String+Extras.swift */; };
+		BC5932FF2625FF0800056C59 /* CGColor+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5932E52625FF0800056C59 /* CGColor+Extras.swift */; };
+		BC5933002625FF0800056C59 /* CGSize+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5932E62625FF0800056C59 /* CGSize+Extras.swift */; };
+		BC5933012625FF0800056C59 /* FileWrapper+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5932E72625FF0800056C59 /* FileWrapper+Extras.swift */; };
+		BC5933022625FF0800056C59 /* CGRect+Handles.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5932E82625FF0800056C59 /* CGRect+Handles.swift */; };
+		BC5933032625FF0800056C59 /* URL+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5932E92625FF0800056C59 /* URL+Extras.swift */; };
+		BC5933042625FF0800056C59 /* CGContext+Bitmap.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5932EA2625FF0800056C59 /* CGContext+Bitmap.swift */; };
+		BC5933052625FF0800056C59 /* CGPoint+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5932EB2625FF0800056C59 /* CGPoint+Extras.swift */; };
+		BC5933062625FF0800056C59 /* Network+FileUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5932EC2625FF0800056C59 /* Network+FileUploader.swift */; };
+		BC5933072625FF0800056C59 /* Network+HTTPResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5932ED2625FF0800056C59 /* Network+HTTPResponse.swift */; };
+		BC5933082625FF0800056C59 /* Codable+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5932EE2625FF0800056C59 /* Codable+JSON.swift */; };
+		BC5933092625FF0800056C59 /* CGContext+Tiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5932EF2625FF0800056C59 /* CGContext+Tiles.swift */; };
+		BC59330A2625FF0800056C59 /* MoofFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5932F02625FF0800056C59 /* MoofFoundation.swift */; };
+		BC59330B2625FF0800056C59 /* CGGeometry+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5932F12625FF0800056C59 /* CGGeometry+Operators.swift */; };
+		BC59330C2625FF0800056C59 /* CGPolarPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5932F22625FF0800056C59 /* CGPolarPoint.swift */; };
+		BC59330D2625FF0800056C59 /* Dictionary+Getters.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5932F32625FF0800056C59 /* Dictionary+Getters.swift */; };
+		BC59330E2625FF0800056C59 /* Image+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5932F42625FF0800056C59 /* Image+Extras.swift */; };
+		BC59330F2625FF0800056C59 /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5932F52625FF0800056C59 /* Formatters.swift */; };
+		BC5933102625FF0800056C59 /* CGFloat+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5932F62625FF0800056C59 /* CGFloat+Extras.swift */; };
+		BC5933112625FF0800056C59 /* FileManager+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5932F72625FF0800056C59 /* FileManager+Extras.swift */; };
+		BC5933122625FF0800056C59 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5932F82625FF0800056C59 /* Color.swift */; };
+		BC5933132625FF0800056C59 /* CGComplex.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5932F92625FF0800056C59 /* CGComplex.swift */; };
+		BC5933142625FF0800056C59 /* SystemUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5932FA2625FF0800056C59 /* SystemUtils.swift */; };
+		BC5933152625FF0800056C59 /* Mirror+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5932FB2625FF0800056C59 /* Mirror+Extras.swift */; };
 		BC9B1199257E46A700286AAA /* MoofFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC9B118F257E46A700286AAA /* MoofFoundation.framework */; };
 		BC9B119E257E46A700286AAA /* MoofFoundationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9B119D257E46A700286AAA /* MoofFoundationTests.swift */; };
 /* End PBXBuildFile section */
@@ -49,34 +49,35 @@
 
 /* Begin PBXFileReference section */
 		BC5931BA2625DA2500056C59 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		BC5931CD2625E89F00056C59 /* CGRect+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+Extras.swift"; sourceTree = "<group>"; };
-		BC5931CE2625E89F00056C59 /* Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
-		BC5931CF2625E89F00056C59 /* String+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extras.swift"; sourceTree = "<group>"; };
-		BC5931D02625E89F00056C59 /* CGColor+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGColor+Extras.swift"; sourceTree = "<group>"; };
-		BC5931D12625E89F00056C59 /* CGSize+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGSize+Extras.swift"; sourceTree = "<group>"; };
-		BC5931D22625E89F00056C59 /* FileWrapper+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileWrapper+Extras.swift"; sourceTree = "<group>"; };
-		BC5931D32625E89F00056C59 /* CGRect+Handles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+Handles.swift"; sourceTree = "<group>"; };
-		BC5931D42625E89F00056C59 /* URL+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+Extras.swift"; sourceTree = "<group>"; };
-		BC5931D52625E89F00056C59 /* CGContext+Bitmap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGContext+Bitmap.swift"; sourceTree = "<group>"; };
-		BC5931D62625E89F00056C59 /* CGPoint+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extras.swift"; sourceTree = "<group>"; };
-		BC5931D72625E89F00056C59 /* Network+FileUploader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Network+FileUploader.swift"; sourceTree = "<group>"; };
-		BC5931D82625E89F00056C59 /* Network+HTTPResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Network+HTTPResponse.swift"; sourceTree = "<group>"; };
-		BC5931D92625E89F00056C59 /* Codable+JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Codable+JSON.swift"; sourceTree = "<group>"; };
-		BC5931DA2625E89F00056C59 /* CGContext+Tiles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGContext+Tiles.swift"; sourceTree = "<group>"; };
-		BC5931DB2625E89F00056C59 /* MoofFoundation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoofFoundation.swift; sourceTree = "<group>"; };
-		BC5931DC2625E89F00056C59 /* CGGeometry+Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGGeometry+Operators.swift"; sourceTree = "<group>"; };
-		BC5931DD2625E89F00056C59 /* CGPolarPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPolarPoint.swift; sourceTree = "<group>"; };
-		BC5931DE2625E89F00056C59 /* Dictionary+Getters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+Getters.swift"; sourceTree = "<group>"; };
-		BC5931DF2625E89F00056C59 /* Image+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+Extras.swift"; sourceTree = "<group>"; };
-		BC5931E02625E89F00056C59 /* Formatters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Formatters.swift; sourceTree = "<group>"; };
-		BC5931E12625E89F00056C59 /* CGFloat+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extras.swift"; sourceTree = "<group>"; };
-		BC5931E22625E89F00056C59 /* FileManager+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileManager+Extras.swift"; sourceTree = "<group>"; };
-		BC5931E32625E89F00056C59 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
-		BC5931E42625E89F00056C59 /* CGComplex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGComplex.swift; sourceTree = "<group>"; };
-		BC5931E52625E89F00056C59 /* SystemUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemUtils.swift; sourceTree = "<group>"; };
-		BC5931E62625E89F00056C59 /* Mirror+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Mirror+Extras.swift"; sourceTree = "<group>"; };
+		BC5932E22625FF0800056C59 /* CGRect+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+Extras.swift"; sourceTree = "<group>"; };
+		BC5932E32625FF0800056C59 /* Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
+		BC5932E42625FF0800056C59 /* String+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extras.swift"; sourceTree = "<group>"; };
+		BC5932E52625FF0800056C59 /* CGColor+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGColor+Extras.swift"; sourceTree = "<group>"; };
+		BC5932E62625FF0800056C59 /* CGSize+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGSize+Extras.swift"; sourceTree = "<group>"; };
+		BC5932E72625FF0800056C59 /* FileWrapper+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileWrapper+Extras.swift"; sourceTree = "<group>"; };
+		BC5932E82625FF0800056C59 /* CGRect+Handles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+Handles.swift"; sourceTree = "<group>"; };
+		BC5932E92625FF0800056C59 /* URL+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+Extras.swift"; sourceTree = "<group>"; };
+		BC5932EA2625FF0800056C59 /* CGContext+Bitmap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGContext+Bitmap.swift"; sourceTree = "<group>"; };
+		BC5932EB2625FF0800056C59 /* CGPoint+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extras.swift"; sourceTree = "<group>"; };
+		BC5932EC2625FF0800056C59 /* Network+FileUploader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Network+FileUploader.swift"; sourceTree = "<group>"; };
+		BC5932ED2625FF0800056C59 /* Network+HTTPResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Network+HTTPResponse.swift"; sourceTree = "<group>"; };
+		BC5932EE2625FF0800056C59 /* Codable+JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Codable+JSON.swift"; sourceTree = "<group>"; };
+		BC5932EF2625FF0800056C59 /* CGContext+Tiles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGContext+Tiles.swift"; sourceTree = "<group>"; };
+		BC5932F02625FF0800056C59 /* MoofFoundation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoofFoundation.swift; sourceTree = "<group>"; };
+		BC5932F12625FF0800056C59 /* CGGeometry+Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGGeometry+Operators.swift"; sourceTree = "<group>"; };
+		BC5932F22625FF0800056C59 /* CGPolarPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPolarPoint.swift; sourceTree = "<group>"; };
+		BC5932F32625FF0800056C59 /* Dictionary+Getters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+Getters.swift"; sourceTree = "<group>"; };
+		BC5932F42625FF0800056C59 /* Image+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+Extras.swift"; sourceTree = "<group>"; };
+		BC5932F52625FF0800056C59 /* Formatters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Formatters.swift; sourceTree = "<group>"; };
+		BC5932F62625FF0800056C59 /* CGFloat+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extras.swift"; sourceTree = "<group>"; };
+		BC5932F72625FF0800056C59 /* FileManager+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileManager+Extras.swift"; sourceTree = "<group>"; };
+		BC5932F82625FF0800056C59 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		BC5932F92625FF0800056C59 /* CGComplex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGComplex.swift; sourceTree = "<group>"; };
+		BC5932FA2625FF0800056C59 /* SystemUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemUtils.swift; sourceTree = "<group>"; };
+		BC5932FB2625FF0800056C59 /* Mirror+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Mirror+Extras.swift"; sourceTree = "<group>"; };
+		BC5933182625FF1D00056C59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC5933192625FF2500056C59 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		BC9B118F257E46A700286AAA /* MoofFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MoofFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC9B1193257E46A700286AAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC9B1198257E46A700286AAA /* MoofFoundationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoofFoundationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC9B119D257E46A700286AAA /* MoofFoundationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoofFoundationTests.swift; sourceTree = "<group>"; };
 		BC9B119F257E46A700286AAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -103,43 +104,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BC5931CB2625E89F00056C59 /* Sources */ = {
+		BC5932E02625FF0800056C59 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				BC5931CC2625E89F00056C59 /* MoofFoundation */,
+				BC5932E12625FF0800056C59 /* MoofFoundation */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
 		};
-		BC5931CC2625E89F00056C59 /* MoofFoundation */ = {
+		BC5932E12625FF0800056C59 /* MoofFoundation */ = {
 			isa = PBXGroup;
 			children = (
-				BC5931CD2625E89F00056C59 /* CGRect+Extras.swift */,
-				BC5931CE2625E89F00056C59 /* Random.swift */,
-				BC5931CF2625E89F00056C59 /* String+Extras.swift */,
-				BC5931D02625E89F00056C59 /* CGColor+Extras.swift */,
-				BC5931D12625E89F00056C59 /* CGSize+Extras.swift */,
-				BC5931D22625E89F00056C59 /* FileWrapper+Extras.swift */,
-				BC5931D32625E89F00056C59 /* CGRect+Handles.swift */,
-				BC5931D42625E89F00056C59 /* URL+Extras.swift */,
-				BC5931D52625E89F00056C59 /* CGContext+Bitmap.swift */,
-				BC5931D62625E89F00056C59 /* CGPoint+Extras.swift */,
-				BC5931D72625E89F00056C59 /* Network+FileUploader.swift */,
-				BC5931D82625E89F00056C59 /* Network+HTTPResponse.swift */,
-				BC5931D92625E89F00056C59 /* Codable+JSON.swift */,
-				BC5931DA2625E89F00056C59 /* CGContext+Tiles.swift */,
-				BC5931DB2625E89F00056C59 /* MoofFoundation.swift */,
-				BC5931DC2625E89F00056C59 /* CGGeometry+Operators.swift */,
-				BC5931DD2625E89F00056C59 /* CGPolarPoint.swift */,
-				BC5931DE2625E89F00056C59 /* Dictionary+Getters.swift */,
-				BC5931DF2625E89F00056C59 /* Image+Extras.swift */,
-				BC5931E02625E89F00056C59 /* Formatters.swift */,
-				BC5931E12625E89F00056C59 /* CGFloat+Extras.swift */,
-				BC5931E22625E89F00056C59 /* FileManager+Extras.swift */,
-				BC5931E32625E89F00056C59 /* Color.swift */,
-				BC5931E42625E89F00056C59 /* CGComplex.swift */,
-				BC5931E52625E89F00056C59 /* SystemUtils.swift */,
-				BC5931E62625E89F00056C59 /* Mirror+Extras.swift */,
+				BC5932E22625FF0800056C59 /* CGRect+Extras.swift */,
+				BC5932E32625FF0800056C59 /* Random.swift */,
+				BC5932E42625FF0800056C59 /* String+Extras.swift */,
+				BC5932E52625FF0800056C59 /* CGColor+Extras.swift */,
+				BC5932E62625FF0800056C59 /* CGSize+Extras.swift */,
+				BC5932E72625FF0800056C59 /* FileWrapper+Extras.swift */,
+				BC5932E82625FF0800056C59 /* CGRect+Handles.swift */,
+				BC5932E92625FF0800056C59 /* URL+Extras.swift */,
+				BC5932EA2625FF0800056C59 /* CGContext+Bitmap.swift */,
+				BC5932EB2625FF0800056C59 /* CGPoint+Extras.swift */,
+				BC5932EC2625FF0800056C59 /* Network+FileUploader.swift */,
+				BC5932ED2625FF0800056C59 /* Network+HTTPResponse.swift */,
+				BC5932EE2625FF0800056C59 /* Codable+JSON.swift */,
+				BC5932EF2625FF0800056C59 /* CGContext+Tiles.swift */,
+				BC5932F02625FF0800056C59 /* MoofFoundation.swift */,
+				BC5932F12625FF0800056C59 /* CGGeometry+Operators.swift */,
+				BC5932F22625FF0800056C59 /* CGPolarPoint.swift */,
+				BC5932F32625FF0800056C59 /* Dictionary+Getters.swift */,
+				BC5932F42625FF0800056C59 /* Image+Extras.swift */,
+				BC5932F52625FF0800056C59 /* Formatters.swift */,
+				BC5932F62625FF0800056C59 /* CGFloat+Extras.swift */,
+				BC5932F72625FF0800056C59 /* FileManager+Extras.swift */,
+				BC5932F82625FF0800056C59 /* Color.swift */,
+				BC5932F92625FF0800056C59 /* CGComplex.swift */,
+				BC5932FA2625FF0800056C59 /* SystemUtils.swift */,
+				BC5932FB2625FF0800056C59 /* Mirror+Extras.swift */,
 			);
 			path = MoofFoundation;
 			sourceTree = "<group>";
@@ -149,8 +150,10 @@
 			children = (
 				BC9B11EF257E4CBA00286AAA /* README.md */,
 				BC5931BA2625DA2500056C59 /* LICENSE */,
+				BC5933192625FF2500056C59 /* Package.swift */,
 				BC9B151A257E590F00286AAA /* MoofFoundation.podspec */,
-				BC9B1191257E46A700286AAA /* MoofFoundation */,
+				BC5933182625FF1D00056C59 /* Info.plist */,
+				BC5932E02625FF0800056C59 /* Sources */,
 				BC9B119C257E46A700286AAA /* MoofFoundationTests */,
 				BC9B1190257E46A700286AAA /* Products */,
 			);
@@ -163,15 +166,6 @@
 				BC9B1198257E46A700286AAA /* MoofFoundationTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		BC9B1191257E46A700286AAA /* MoofFoundation */ = {
-			isa = PBXGroup;
-			children = (
-				BC9B1193257E46A700286AAA /* Info.plist */,
-				BC5931CB2625E89F00056C59 /* Sources */,
-			);
-			path = MoofFoundation;
 			sourceTree = "<group>";
 		};
 		BC9B119C257E46A700286AAA /* MoofFoundationTests */ = {
@@ -292,32 +286,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC5931EF2625E89F00056C59 /* CGContext+Bitmap.swift in Sources */,
-				BC5931F92625E89F00056C59 /* Image+Extras.swift in Sources */,
-				BC5931FD2625E89F00056C59 /* Color.swift in Sources */,
-				BC5932002625E89F00056C59 /* Mirror+Extras.swift in Sources */,
-				BC5931F42625E89F00056C59 /* CGContext+Tiles.swift in Sources */,
-				BC5931FE2625E89F00056C59 /* CGComplex.swift in Sources */,
-				BC5931EE2625E89F00056C59 /* URL+Extras.swift in Sources */,
-				BC5931F52625E89F00056C59 /* MoofFoundation.swift in Sources */,
-				BC5931E82625E89F00056C59 /* Random.swift in Sources */,
-				BC5931F62625E89F00056C59 /* CGGeometry+Operators.swift in Sources */,
-				BC5931F82625E89F00056C59 /* Dictionary+Getters.swift in Sources */,
-				BC5931FC2625E89F00056C59 /* FileManager+Extras.swift in Sources */,
-				BC5931E92625E89F00056C59 /* String+Extras.swift in Sources */,
-				BC5931ED2625E89F00056C59 /* CGRect+Handles.swift in Sources */,
-				BC5931F72625E89F00056C59 /* CGPolarPoint.swift in Sources */,
-				BC5931F22625E89F00056C59 /* Network+HTTPResponse.swift in Sources */,
-				BC5931F12625E89F00056C59 /* Network+FileUploader.swift in Sources */,
-				BC5931EC2625E89F00056C59 /* FileWrapper+Extras.swift in Sources */,
-				BC5931FB2625E89F00056C59 /* CGFloat+Extras.swift in Sources */,
-				BC5931F32625E89F00056C59 /* Codable+JSON.swift in Sources */,
-				BC5931EB2625E89F00056C59 /* CGSize+Extras.swift in Sources */,
-				BC5931F02625E89F00056C59 /* CGPoint+Extras.swift in Sources */,
-				BC5931EA2625E89F00056C59 /* CGColor+Extras.swift in Sources */,
-				BC5931FA2625E89F00056C59 /* Formatters.swift in Sources */,
-				BC5931FF2625E89F00056C59 /* SystemUtils.swift in Sources */,
-				BC5931E72625E89F00056C59 /* CGRect+Extras.swift in Sources */,
+				BC5933042625FF0800056C59 /* CGContext+Bitmap.swift in Sources */,
+				BC59330E2625FF0800056C59 /* Image+Extras.swift in Sources */,
+				BC5933122625FF0800056C59 /* Color.swift in Sources */,
+				BC5933152625FF0800056C59 /* Mirror+Extras.swift in Sources */,
+				BC5933092625FF0800056C59 /* CGContext+Tiles.swift in Sources */,
+				BC5933132625FF0800056C59 /* CGComplex.swift in Sources */,
+				BC5933032625FF0800056C59 /* URL+Extras.swift in Sources */,
+				BC59330A2625FF0800056C59 /* MoofFoundation.swift in Sources */,
+				BC5932FD2625FF0800056C59 /* Random.swift in Sources */,
+				BC59330B2625FF0800056C59 /* CGGeometry+Operators.swift in Sources */,
+				BC59330D2625FF0800056C59 /* Dictionary+Getters.swift in Sources */,
+				BC5933112625FF0800056C59 /* FileManager+Extras.swift in Sources */,
+				BC5932FE2625FF0800056C59 /* String+Extras.swift in Sources */,
+				BC5933022625FF0800056C59 /* CGRect+Handles.swift in Sources */,
+				BC59330C2625FF0800056C59 /* CGPolarPoint.swift in Sources */,
+				BC5933072625FF0800056C59 /* Network+HTTPResponse.swift in Sources */,
+				BC5933062625FF0800056C59 /* Network+FileUploader.swift in Sources */,
+				BC5933012625FF0800056C59 /* FileWrapper+Extras.swift in Sources */,
+				BC5933102625FF0800056C59 /* CGFloat+Extras.swift in Sources */,
+				BC5933082625FF0800056C59 /* Codable+JSON.swift in Sources */,
+				BC5933002625FF0800056C59 /* CGSize+Extras.swift in Sources */,
+				BC5933052625FF0800056C59 /* CGPoint+Extras.swift in Sources */,
+				BC5932FF2625FF0800056C59 /* CGColor+Extras.swift in Sources */,
+				BC59330F2625FF0800056C59 /* Formatters.swift in Sources */,
+				BC5933142625FF0800056C59 /* SystemUtils.swift in Sources */,
+				BC5932FC2625FF0800056C59 /* CGRect+Extras.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,7 +493,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = MoofFoundation/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -533,7 +527,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = MoofFoundation/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
