@@ -43,6 +43,8 @@ import Cocoa
 import UIKit
 #endif
 
+import SwiftUI
+
 // MARK: - Colors HSLA and RGBA Tuples
 
 public typealias HSLATuple = (h: CGFloat, s: CGFloat, l: CGFloat, a: CGFloat)
@@ -52,6 +54,12 @@ public typealias RGBATuple = (r: CGFloat, g: CGFloat, b: CGFloat, a: CGFloat)
 protocol RGBAObject {
     
 }
+//
+//extension SwiftUI.Color {
+//    var mfColor: MoofFoundation.Color {
+//        
+//    }
+//}
 
 public struct Color: RGBAObject, Codable {
     
@@ -265,13 +273,28 @@ public extension Color {
     
 }
 
+// MARK: - SwiftUI
+
+public extension Color {
+    
+    @available(iOS 14.0, *)
+    var suiColor: SwiftUI.Color {
+        return SwiftUI.Color(self.cgColor)
+    }
+    
+}
+
 #if os(macOS)
+
+// MARK: - MacOS
 
 public extension Color {
     var nsColor: NSColor { platformColor }
 }
 
 #else
+
+// MARK: - iOS
 
 public extension Color {
     var uiColor: UIColor { platformColor }

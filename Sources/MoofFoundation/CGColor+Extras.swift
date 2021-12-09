@@ -75,13 +75,20 @@ public extension CGColor {
         return PlatformColor(red: color.red, green: color.green, blue: color.blue, alpha: color.alpha)
     }
 
+    /// init(hex: String)
+    ///
+    /// Init with hexadecimal representation
+    static func make(with hex: String) -> CGColor {
+        return Color(hexString: hex).cgColor
+    }
+
     /// init(hsla: HSLATuple)
     ///
     /// Init with Hue/Saturation/Lightness/Alpha values
     static func make(with hsla: HSLATuple) -> CGColor {
         return Color(hsla: hsla).cgColor
     }
-    
+
     /// init(hsla: HSLATuple)
     ///
     /// Init with Red/Green/Blue/Alpha values

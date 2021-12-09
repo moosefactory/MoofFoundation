@@ -45,5 +45,4 @@ public extension JSONCodable {
     func json() throws -> Data  {
         return try JSONEncoder().encode(self)
     }
-
 }

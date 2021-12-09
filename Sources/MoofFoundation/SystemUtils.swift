@@ -42,7 +42,7 @@ public struct Device {
     
     public static var deviceSerialNumber: String
     {
-        let ped = IOServiceGetMatchingService(kIOMasterPortDefault, IOServiceMatching("IOPlatformExpertDevice"))
+        let ped = IOServiceGetMatchingService(kIOMainPortDefault, IOServiceMatching("IOPlatformExpertDevice"))
         let cfSerialNumber = IORegistryEntryCreateCFProperty(ped, kIOPlatformSerialNumberKey as CFString, kCFAllocatorDefault, 0)
         IOObjectRelease(ped)
         return cfSerialNumber?.takeUnretainedValue() as? String ?? ""

@@ -38,18 +38,23 @@ import QuartzCore
 // MARK: Fractionals
 
 public extension CGFloat {
+    
+    @_transparent
     func clamp(_ _min: CGFloat = 0, _ _max: CGFloat) -> CGFloat {
         return Swift.max(_min, Swift.min(_max, self))
     }
     
+    @_transparent
     var clampToPositiveFractional: CGFloat {
         return Swift.max(CGFloat(0), Swift.min(CGFloat(1), self))
     }
     
+    @_transparent
     var clampToFractional: CGFloat {
         return Swift.max(CGFloat(-1), Swift.min(CGFloat(1), self))
     }
     
+    @_transparent
     func bary(to: CGFloat, fraction: CGFloat = 0.5) -> CGFloat {
         let f = fraction.clampToPositiveFractional
         return self * (1 - f) + to * f

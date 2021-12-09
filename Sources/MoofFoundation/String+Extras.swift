@@ -83,7 +83,7 @@ public extension UUID {
 
     /// Returns the four first characters of the UUID.
     /// Nice to display or log UUIDs, but don't use it for identification.
-    static var short: String { String(UUID().uuidString.prefix(4)) }
+    var short: String { String(uuidString.prefix(4)) }
 }
 
 //MARK: - String
