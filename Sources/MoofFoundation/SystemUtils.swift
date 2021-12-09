@@ -42,9 +42,14 @@ public struct Device {
     
     public static var deviceSerialNumber: String
     {
-        let ped = IOServiceGetMatchingService(kIOMainPortDefault, IOServiceMatching("IOPlatformExpertDevice"))
-        let cfSerialNumber = IORegistryEntryCreateCFProperty(ped, kIOPlatformSerialNumberKey as CFString, kCFAllocatorDefault, 0)
-        IOObjectRelease(ped)
+        var machport: mach_port_t = kIOMasterPortDefault
+        if #available(macOS 12.0, *) {
+            machport = kIOMainPortDefault
+        }
+        let ioService = IOServiceGetMatchingService(machport, IOServiceMatching("IOPlatformExpertDevice"))
+
+        let cfSerialNumber = IORegistryEntryCreateCFProperty(ioService, kIOPlatformSerialNumberKey as CFString, kCFAllocatorDefault, 0)
+        IOObjectRelease(ioService)
         return cfSerialNumber?.takeUnretainedValue() as? String ?? ""
     }
 }
