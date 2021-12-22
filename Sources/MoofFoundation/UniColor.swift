@@ -61,7 +61,7 @@ protocol RGBAObject {
 //    }
 //}
 
-public struct Color: RGBAObject, Codable {
+public struct UniColor: RGBAObject, Codable {
     
     public var red: CGFloat = 0
     public var green: CGFloat = 0
@@ -73,6 +73,33 @@ public struct Color: RGBAObject, Codable {
         self.green = 0
         self.blue = 0
         self.alpha = 1
+    }
+    
+    public init(_ cgColor: CGColor) {
+        let c = cgColor.components
+        let n = cgColor.numberOfComponents
+        switch n {
+        case 1:
+            self.red = c?[0] ?? 0
+            self.green = c?[0] ?? 0
+            self.blue = c?[0] ?? 0
+            self.alpha = 1
+        case 3:
+            self.red = c?[0] ?? 0
+            self.green = c?[1] ?? 0
+            self.blue = c?[2] ?? 0
+            self.alpha = 1
+        case 4:
+            self.red = c?[0] ?? 0
+            self.green = c?[1] ?? 0
+            self.blue = c?[2] ?? 0
+            self.alpha = c?[3] ?? 1
+        default:
+            self.red = 0
+            self.green = 0
+            self.blue = 0
+            self.alpha = 1
+        }
     }
     
     public init(red: CGFloat = 0, green: CGFloat = 0, blue: CGFloat = 0, alpha: CGFloat = 1) {
@@ -89,68 +116,68 @@ public struct Color: RGBAObject, Codable {
         case alpha
     }
     
-    public static let red = Color(red: 1, green: 0, blue: 0, alpha: 1)
-    public static let green = Color(red: 0, green: 1, blue: 0, alpha: 1)
-    public static let blue = Color(red: 0, green: 0, blue: 1, alpha: 1)
+    public static let red = UniColor(red: 1, green: 0, blue: 0, alpha: 1)
+    public static let green = UniColor(red: 0, green: 1, blue: 0, alpha: 1)
+    public static let blue = UniColor(red: 0, green: 0, blue: 1, alpha: 1)
 
-    public static let yellow = Color(red: 1, green: 1, blue: 0, alpha: 1)
-    public static let orange = Color(red: 1, green: 0.5, blue: 0, alpha: 1)
-    public static let mauve = Color(red: 1, green: 0, blue: 1, alpha: 1)
+    public static let yellow = UniColor(red: 1, green: 1, blue: 0, alpha: 1)
+    public static let orange = UniColor(red: 1, green: 0.5, blue: 0, alpha: 1)
+    public static let mauve = UniColor(red: 1, green: 0, blue: 1, alpha: 1)
 
-    public static let black = Color(red: 0, green: 0, blue: 0, alpha: 1)
-    public static let white = Color(red: 1, green: 1, blue: 1, alpha: 1)
-    public static let clear = Color(red: 0, green: 0, blue: 0, alpha: 0)
+    public static let black = UniColor(red: 0, green: 0, blue: 0, alpha: 1)
+    public static let white = UniColor(red: 1, green: 1, blue: 1, alpha: 1)
+    public static let clear = UniColor(red: 0, green: 0, blue: 0, alpha: 0)
     
-    public static func + (lhs: Color, rhs: Color) -> Color {
-        return Color(red: lhs.red + rhs.red, green: lhs.green + rhs.green, blue: lhs.blue + rhs.blue, alpha: lhs.alpha + rhs.alpha)
+    public static func + (lhs: UniColor, rhs: UniColor) -> UniColor {
+        return UniColor(red: lhs.red + rhs.red, green: lhs.green + rhs.green, blue: lhs.blue + rhs.blue, alpha: lhs.alpha + rhs.alpha)
     }
     
-    public static func += (lhs: inout Color, rhs: Color) {
+    public static func += (lhs: inout UniColor, rhs: UniColor) {
         lhs.red += rhs.red
         lhs.green += rhs.green
         lhs.blue += rhs.blue
         lhs.alpha += rhs.alpha
     }
     
-    public static func baryColor(_ color1: Color, _ color2: Color, fraction: CGFloat = 0.5) -> Color {
+    public static func baryColor(_ color1: UniColor, _ color2: UniColor, fraction: CGFloat = 0.5) -> UniColor {
         
-        return Color(red: color1.red.bary(to: color2.red, fraction: fraction),
+        return UniColor(red: color1.red.bary(to: color2.red, fraction: fraction),
                      green: color1.green.bary(to: color2.green, fraction: fraction),
                      blue: color1.blue.bary(to: color2.blue, fraction: fraction),
                      alpha: color1.alpha.bary(to: color2.alpha, fraction: fraction))
     }
     
-    public func with(alpha: CGFloat) -> Color {
-        return Color(red: red, green: green, blue: blue, alpha: alpha)
+    public func with(alpha: CGFloat) -> UniColor {
+        return UniColor(red: red, green: green, blue: blue, alpha: alpha)
     }
 }
 
-public extension Color {
+public extension UniColor {
     
-    static func - (lhs: Color, rhs: Color) -> Color {
-        return Color(red: lhs.red - rhs.red, green: lhs.green - rhs.green, blue: lhs.blue - rhs.blue, alpha: lhs.alpha - rhs.alpha)
+    static func - (lhs: UniColor, rhs: UniColor) -> UniColor {
+        return UniColor(red: lhs.red - rhs.red, green: lhs.green - rhs.green, blue: lhs.blue - rhs.blue, alpha: lhs.alpha - rhs.alpha)
     }
     
-    static func / (lhs: Color, rhs: Int) -> Color {
+    static func / (lhs: UniColor, rhs: Int) -> UniColor {
         let f = CGFloat(rhs)
-        return Color(red: lhs.red / f, green: lhs.green / f, blue: lhs.blue / f, alpha: lhs.alpha / f)
+        return UniColor(red: lhs.red / f, green: lhs.green / f, blue: lhs.blue / f, alpha: lhs.alpha / f)
     }
     
-    static func / (lhs: Color, rhs: CGFloat) -> Color {
-        return Color(red: lhs.red / rhs, green: lhs.green / rhs, blue: lhs.blue / rhs, alpha: lhs.alpha / rhs)
+    static func / (lhs: UniColor, rhs: CGFloat) -> UniColor {
+        return UniColor(red: lhs.red / rhs, green: lhs.green / rhs, blue: lhs.blue / rhs, alpha: lhs.alpha / rhs)
     }
     
-    static func * (lhs: Color, rhs: Int) -> Color {
+    static func * (lhs: UniColor, rhs: Int) -> UniColor {
         let f = CGFloat(rhs)
-        return Color(red: lhs.red * f, green: lhs.green * f, blue: lhs.blue * f, alpha: lhs.alpha * f)
+        return UniColor(red: lhs.red * f, green: lhs.green * f, blue: lhs.blue * f, alpha: lhs.alpha * f)
     }
 
-    static func * (lhs: Color, rhs: CGFloat) -> Color {
-        return Color(red: lhs.red * rhs, green: lhs.green * rhs, blue: lhs.blue * rhs, alpha: lhs.alpha * rhs)
+    static func * (lhs: UniColor, rhs: CGFloat) -> UniColor {
+        return UniColor(red: lhs.red * rhs, green: lhs.green * rhs, blue: lhs.blue * rhs, alpha: lhs.alpha * rhs)
     }
 }
 
-public extension Color {
+public extension UniColor {
     var simd: simd_float4 { return [Float(red), Float(green), Float(blue), Float(alpha)] }
     
     #if os(macOS)
@@ -164,13 +191,13 @@ public extension Color {
     #endif
 }
 
-extension Color: CustomStringConvertible {
+extension UniColor: CustomStringConvertible {
     public var description: String {
         return "r:\(red.dec3) g:\(green.dec3) b:\(blue.dec3) a:\(alpha.dec3) "
     }
 }
 
-public extension Color {
+public extension UniColor {
 
     var rgba: RGBATuple { return (red, green, blue, alpha) }
     
@@ -222,23 +249,23 @@ public extension Color {
         return hsba
     }
     
-    func with(brightnessFactor: CGFloat) -> Color {
+    func with(brightnessFactor: CGFloat) -> UniColor {
         var hsla = self.hsla
         hsla.l = max(min(hsla.l * brightnessFactor, 1),0)
         return PlatformColor(hsla: hsla).color
     }
     
     
-    var darken: Color {
+    var darken: UniColor {
         return with(brightnessFactor: 0.50)
     }
     
-    var lighten: Color {
+    var lighten: UniColor {
         return with(brightnessFactor: 2)
     }
     
     /// Returns a black or white color that is visible on a background of given color
-    static func visibleColor(on color: Color) -> Color {
+    static func visibleColor(on color: UniColor) -> UniColor {
         let brightness = color.hsla.l
         return brightness < 0.35 ? .white : .black
     }
@@ -246,7 +273,7 @@ public extension Color {
 
 // MARK: - Color/Hex Conversion
 
-public extension Color {
+public extension UniColor {
     
     init(hexString: String, alpha: CGFloat = 1.0) {
         let hexString: String = hexString.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
@@ -275,7 +302,7 @@ public extension Color {
 
 // MARK: - SwiftUI
 
-public extension Color {
+public extension UniColor {
     
     @available(iOS 14.0, *)
     var suiColor: SwiftUI.Color {
@@ -288,7 +315,7 @@ public extension Color {
 
 // MARK: - MacOS
 
-public extension Color {
+public extension UniColor {
     var nsColor: NSColor { platformColor }
 }
 
@@ -296,7 +323,7 @@ public extension Color {
 
 // MARK: - iOS
 
-public extension Color {
+public extension UniColor {
     var uiColor: UIColor { platformColor }
 }
 

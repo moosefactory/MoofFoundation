@@ -47,7 +47,7 @@ public extension CGSize {
     }
 }
 
-//MARK: - 3 Decimals formattter - Usefull for debug logging
+//MARK: - 3 Decimals formatter - Usefull for debug logging
 
 public extension CGFloat {
 

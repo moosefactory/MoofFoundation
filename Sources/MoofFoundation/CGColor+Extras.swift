@@ -79,14 +79,14 @@ public extension CGColor {
     ///
     /// Init with hexadecimal representation
     static func make(with hex: String) -> CGColor {
-        return Color(hexString: hex).cgColor
+        return UniColor(hexString: hex).cgColor
     }
 
     /// init(hsla: HSLATuple)
     ///
     /// Init with Hue/Saturation/Lightness/Alpha values
     static func make(with hsla: HSLATuple) -> CGColor {
-        return Color(hsla: hsla).cgColor
+        return UniColor(hsla: hsla).cgColor
     }
 
     /// init(hsla: HSLATuple)
@@ -101,7 +101,7 @@ public extension CGColor {
 
 public extension CGColor {
     
-    var color: Color {
+    var color: UniColor {
         guard let comps = components else {
             return .black
         }
@@ -109,16 +109,16 @@ public extension CGColor {
         switch n {
         // Grayscale
         case 1:
-            return Color(red: comps[0], green: comps[0], blue: comps[0], alpha: 1)
+            return UniColor(red: comps[0], green: comps[0], blue: comps[0], alpha: 1)
         // Grayscale with alpha
         case 2:
-            return Color(red: comps[0], green: comps[0], blue: comps[0], alpha: comps[1])
+            return UniColor(red: comps[0], green: comps[0], blue: comps[0], alpha: comps[1])
         // RGB
         case 3:
-            return Color(red: comps[0], green: comps[1], blue: comps[2], alpha: 1)
+            return UniColor(red: comps[0], green: comps[1], blue: comps[2], alpha: 1)
         // RGB with alpha
         case 4:
-            return Color(red: comps[0], green: comps[1], blue: comps[2], alpha: comps[3])
+            return UniColor(red: comps[0], green: comps[1], blue: comps[2], alpha: comps[3])
         default:
             return .black
         }
@@ -129,14 +129,14 @@ public extension CGColor {
 
 public extension PlatformColor {
     
-    var color: Color { cgColor.color }
+    var color: UniColor { cgColor.color }
     
     var hsla: HSLATuple { color.hsla }
     
     var rgba: RGBATuple { color.rgba }
     
     
-    convenience init(color: Color) {
+    convenience init(color: UniColor) {
         self.init(red: color.red, green: color.green, blue: color.blue, alpha: color.alpha)
     }
 
@@ -149,7 +149,7 @@ public extension PlatformColor {
     }
 }
 
-extension Color {
+extension UniColor {
     
     init(hsla: HSLATuple) {
         let platformColor = PlatformColor(hsla: hsla)
@@ -166,7 +166,7 @@ extension Color {
 public extension PlatformColor {
     
     convenience init(hexString: String, alpha: CGFloat = 1.0) {
-        self.init(color: Color(hexString: hexString))
+        self.init(color: UniColor(hexString: hexString))
     }
 
     var hex: String {
