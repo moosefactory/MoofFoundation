@@ -10,7 +10,6 @@
 		BC5932FC2625FF0800056C59 /* CGRect+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5932E22625FF0800056C59 /* CGRect+Extras.swift */; };
 		BC5932FD2625FF0800056C59 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5932E32625FF0800056C59 /* Random.swift */; };
 		BC5932FE2625FF0800056C59 /* String+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5932E42625FF0800056C59 /* String+Extras.swift */; };
-		BC5932FF2625FF0800056C59 /* CGColor+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5932E52625FF0800056C59 /* CGColor+Extras.swift */; };
 		BC5933002625FF0800056C59 /* CGSize+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5932E62625FF0800056C59 /* CGSize+Extras.swift */; };
 		BC5933012625FF0800056C59 /* FileWrapper+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5932E72625FF0800056C59 /* FileWrapper+Extras.swift */; };
 		BC5933022625FF0800056C59 /* CGRect+Handles.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5932E82625FF0800056C59 /* CGRect+Handles.swift */; };
@@ -29,7 +28,6 @@
 		BC59330F2625FF0800056C59 /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5932F52625FF0800056C59 /* Formatters.swift */; };
 		BC5933102625FF0800056C59 /* CGFloat+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5932F62625FF0800056C59 /* CGFloat+Extras.swift */; };
 		BC5933112625FF0800056C59 /* FileManager+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5932F72625FF0800056C59 /* FileManager+Extras.swift */; };
-		BC5933122625FF0800056C59 /* UniColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5932F82625FF0800056C59 /* UniColor.swift */; };
 		BC5933132625FF0800056C59 /* CGComplex.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5932F92625FF0800056C59 /* CGComplex.swift */; };
 		BC5933142625FF0800056C59 /* SystemUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5932FA2625FF0800056C59 /* SystemUtils.swift */; };
 		BC5933152625FF0800056C59 /* Mirror+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5932FB2625FF0800056C59 /* Mirror+Extras.swift */; };
@@ -52,7 +50,6 @@
 		BC5932E22625FF0800056C59 /* CGRect+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+Extras.swift"; sourceTree = "<group>"; };
 		BC5932E32625FF0800056C59 /* Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
 		BC5932E42625FF0800056C59 /* String+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extras.swift"; sourceTree = "<group>"; };
-		BC5932E52625FF0800056C59 /* CGColor+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGColor+Extras.swift"; sourceTree = "<group>"; };
 		BC5932E62625FF0800056C59 /* CGSize+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGSize+Extras.swift"; sourceTree = "<group>"; };
 		BC5932E72625FF0800056C59 /* FileWrapper+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileWrapper+Extras.swift"; sourceTree = "<group>"; };
 		BC5932E82625FF0800056C59 /* CGRect+Handles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+Handles.swift"; sourceTree = "<group>"; };
@@ -71,7 +68,6 @@
 		BC5932F52625FF0800056C59 /* Formatters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Formatters.swift; sourceTree = "<group>"; };
 		BC5932F62625FF0800056C59 /* CGFloat+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extras.swift"; sourceTree = "<group>"; };
 		BC5932F72625FF0800056C59 /* FileManager+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileManager+Extras.swift"; sourceTree = "<group>"; };
-		BC5932F82625FF0800056C59 /* UniColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniColor.swift; sourceTree = "<group>"; };
 		BC5932F92625FF0800056C59 /* CGComplex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGComplex.swift; sourceTree = "<group>"; };
 		BC5932FA2625FF0800056C59 /* SystemUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemUtils.swift; sourceTree = "<group>"; };
 		BC5932FB2625FF0800056C59 /* Mirror+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Mirror+Extras.swift"; sourceTree = "<group>"; };
@@ -118,7 +114,6 @@
 				BC5932E22625FF0800056C59 /* CGRect+Extras.swift */,
 				BC5932E32625FF0800056C59 /* Random.swift */,
 				BC5932E42625FF0800056C59 /* String+Extras.swift */,
-				BC5932E52625FF0800056C59 /* CGColor+Extras.swift */,
 				BC5932E62625FF0800056C59 /* CGSize+Extras.swift */,
 				BC5932E72625FF0800056C59 /* FileWrapper+Extras.swift */,
 				BC5932E82625FF0800056C59 /* CGRect+Handles.swift */,
@@ -137,7 +132,6 @@
 				BC5932F52625FF0800056C59 /* Formatters.swift */,
 				BC5932F62625FF0800056C59 /* CGFloat+Extras.swift */,
 				BC5932F72625FF0800056C59 /* FileManager+Extras.swift */,
-				BC5932F82625FF0800056C59 /* UniColor.swift */,
 				BC5932F92625FF0800056C59 /* CGComplex.swift */,
 				BC5932FA2625FF0800056C59 /* SystemUtils.swift */,
 				BC5932FB2625FF0800056C59 /* Mirror+Extras.swift */,
@@ -288,7 +282,6 @@
 			files = (
 				BC5933042625FF0800056C59 /* CGContext+Bitmap.swift in Sources */,
 				BC59330E2625FF0800056C59 /* Image+Extras.swift in Sources */,
-				BC5933122625FF0800056C59 /* UniColor.swift in Sources */,
 				BC5933152625FF0800056C59 /* Mirror+Extras.swift in Sources */,
 				BC5933092625FF0800056C59 /* CGContext+Tiles.swift in Sources */,
 				BC5933132625FF0800056C59 /* CGComplex.swift in Sources */,
@@ -308,7 +301,6 @@
 				BC5933082625FF0800056C59 /* Codable+JSON.swift in Sources */,
 				BC5933002625FF0800056C59 /* CGSize+Extras.swift in Sources */,
 				BC5933052625FF0800056C59 /* CGPoint+Extras.swift in Sources */,
-				BC5932FF2625FF0800056C59 /* CGColor+Extras.swift in Sources */,
 				BC59330F2625FF0800056C59 /* Formatters.swift in Sources */,
 				BC5933142625FF0800056C59 /* SystemUtils.swift in Sources */,
 				BC5932FC2625FF0800056C59 /* CGRect+Extras.swift in Sources */,
