@@ -1,9 +1,16 @@
+/*--------------------------------------------------------------------------*/
+/*   /\/\/\__/\/\/\        MooseFactory Foundation - Swift - v1.1           */
+/*   \/\/\/..\/\/\/                                                         */
+/*        |  |             (c)2007-2021 Tristan Leblanc                     */
+/*        (oo)             tristan@moosefactory.eu                          */
+/* MooseFactory Software                                                    */
+/*--------------------------------------------------------------------------*/
+
+// FileWrapper+Extras
+// MoofFoundation
 //
-//  File.swift
-//  
-//
-//  Created by Tristan Leblanc on 13/04/2021.
-//
+// Created by Tristan Leblanc on 13/04/2021.
+
 
 import Foundation
 

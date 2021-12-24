@@ -1,9 +1,14 @@
-//
-//  File.swift
-//  
-//
-//  Created by Tristan Leblanc on 13/04/2021.
-//
+/*--------------------------------------------------------------------------*/
+/*   /\/\/\__/\/\/\        MooseFactory Foundation - Swift - v1.1           */
+/*   \/\/\/..\/\/\/                                                         */
+/*        |  |             (c)2007-2021 Tristan Leblanc                     */
+/*        (oo)             tristan@moosefactory.eu                          */
+/* MooseFactory Software                                                    */
+/*--------------------------------------------------------------------------*/
+
+// CGRect+Extras
+// Moofoundation
+// Created by Tristan Leblanc on 13/04/2021.
 
 #if !os(watchOS)
 
