@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 	s.name             = "MoofFoundation"
-	s.version          = "1.0.1"
+	s.version          = "1.1"
 	s.summary          = "MoofFoundation is a cross-platofrm (iOS/MacOS) Utility Library."
 	s.description      = <<-DESC
 					MoofFoundation is a cross-platform (iOS/MacOS) Utility Library.
