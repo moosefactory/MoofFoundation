@@ -32,6 +32,13 @@ public extension CGRect {
     var halfWidth: CGFloat { return width / 2 }
     var halfHeight: CGFloat { return height / 2 }
     
+    func with(width: CGFloat) -> CGRect {
+        CGRect(minX: minX, minY: minY, maxX: minX + width, maxY: maxY)
+    }
+    
+    func with(height: CGFloat) -> CGRect {
+        CGRect(minX: minX, minY: minY, maxX: maxX, maxY: minY + height)
+    }
     
     /// Convenience initializer
     init(minX: CGFloat, minY: CGFloat, maxX: CGFloat, maxY: CGFloat) {
