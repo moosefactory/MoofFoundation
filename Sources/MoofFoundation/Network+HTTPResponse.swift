@@ -15,6 +15,20 @@ import Foundation
 
 public struct HTTPResponse: Codable {
     
+    public init(referer: String? = nil,
+                  message: String? = nil,
+                  error: String? = nil,
+                  status: Int,
+                  code: Int? = nil,
+                  data: String? = nil) {
+        self.referer = referer
+        self.message = message
+        self.error = error
+        self.status = status
+        self.code = code
+        self.data = data
+    }
+    
     /// The url where the error was triggered
     ///
     /// This is not necessarily the called url, it can give more detail on the script that did fail

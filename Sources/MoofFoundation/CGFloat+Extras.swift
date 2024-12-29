@@ -69,4 +69,9 @@ public extension Double {
     }
 }
 
+public extension CGFloat {
+    var toFractionnal: CGFloat { return self / 100 }
+    var fromFractionnal: CGFloat { return self * 100 }
+}
+
 #endif

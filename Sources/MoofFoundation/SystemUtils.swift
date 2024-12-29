@@ -5,10 +5,6 @@
 /*        (oo)             tristan@moosefactory.eu                          */
 /* MooseFactory Software                                                    */
 /*--------------------------------------------------------------------------*/
-
-//  SystemUtils.swift
-//  Gravitic
-//
 //  Created by Tristan Leblanc on 28/09/2020.
 
 import Foundation

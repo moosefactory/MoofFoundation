@@ -5,10 +5,6 @@
 /*        (oo)             tristan@moosefactory.eu                          */
 /* MooseFactory Software                                                    */
 /*--------------------------------------------------------------------------*/
-
-//  String.swift
-//  MoofFoundation
-//
 //  Created by Tristan Leblanc on 20/11/2020.
 
 import Foundation
@@ -71,6 +67,10 @@ public extension UUID {
 
 public extension String {
     
+    var utf8: Data  {
+        return data(using: .utf8) ?? Data()
+    }
+
     var ns: NSString {
         return NSString(string: self)
     }
